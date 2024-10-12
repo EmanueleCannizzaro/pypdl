@@ -1,8 +1,25 @@
+Metadata-Version: 2.1
+Name: pypdl
+Version: 1.4.4
+Summary: A concurrent pure python download manager
+Home-page: https://github.com/mjishnu/pypdl
+Author: mjishnu
+Author-email: <mjishnu@proton.me>
+License: MIT
+Keywords: python,downloader,multi-threaded-downloader,concurrent-downloader,parallel-downloader,async-downloader,asyncronous-downloader,download-manager,fast-downloader,download-accelerator,download-optimizer,download-utility,download-tool,download-automation
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp
+Requires-Dist: aiofiles
+
 # pypdl
 
 pypdl is a Python library for downloading files from the internet. It provides features such as multi-segmented downloads, retry download in case of failure, option to continue downloading using a different URL if necessary, progress tracking, pause/resume functionality, checksum and many more.
-
-This package provides a benchmark tool for URL downloading processes. It simulates the downloading of files from URLs and measures the performance of the process.
 
 ## Table of Contents
 
@@ -12,7 +29,6 @@ This package provides a benchmark tool for URL downloading processes. It simulat
   - [Basic Usage](#basic-usage)
   - [Advanced Usage](#advanced-usage)
   - [Examples](#examples)
-  - [Tests](#tests)
 - [API Reference](#api-reference)
 - [License](#license)
 - [Contribution](#contribution)
@@ -28,24 +44,11 @@ To install the pypdl, run the following command:
 
 
 ```bash
-python -m pip install pypdl
+pip install pypdl
 ```
 ## Usage
 
 ### Basic Usage
-
-Here's a basic example of how to use the benchmark:
-
-```python
-import asyncio
-from pypdl.benchmark import run_benchmark
-
-async def main():
-    results = await run_benchmark("test.db", 100, "/tmp/downloads")
-    print(results)
-
-asyncio.run(main())
-```
 
 To download a file using the pypdl, simply create a new `Pypdl` object and call its `start` method, passing in the URL of the file to be downloaded:
 
@@ -54,14 +57,6 @@ from pypdl import Pypdl
 
 dl = Pypdl()
 dl.start('http://example.com/file.txt')
-```
-
-## Running Tests
-
-To run the tests, use pytest:
-
-```
-pytest tests/
 ```
 
 ### Advanced Usage

@@ -1,0 +1,3 @@
+sqlmodel
+pytest
+pytest-asyncio

@@ -1,0 +1,601 @@
+(Pypdl)  12-10-24 13:18:00 - ERROR: (ClientResponseError) [404, message='Not Found', url='http://example.com/file.txt']
+Traceback (most recent call last):
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 103, in download
+    result = self._execute(
+             ^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 177, in _execute
+    file_path, multisegment, etag = self._get_info(
+                                    ^^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 231, in _get_info
+    header = asyncio.run(self._get_header(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 251, in _get_header
+    async with session.head(url, **self._kwargs) as response:
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/client.py", line 1353, in __aenter__
+    self._resp = await self._coro
+                 ^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/client.py", line 787, in _request
+    resp.raise_for_status()
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/client_reqrep.py", line 1093, in raise_for_status
+    raise ClientResponseError(
+aiohttp.client_exceptions.ClientResponseError: 404, message='Not Found', url='http://example.com/file.txt'
+(Pypdl)  12-10-24 13:18:20 - ERROR: (ClientResponseError) [404, message='Not Found', url='http://example.com/file.txt']
+Traceback (most recent call last):
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 103, in download
+    result = self._execute(
+             ^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 177, in _execute
+    file_path, multisegment, etag = self._get_info(
+                                    ^^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 231, in _get_info
+    header = asyncio.run(self._get_header(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 251, in _get_header
+    async with session.head(url, **self._kwargs) as response:
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/client.py", line 1353, in __aenter__
+    self._resp = await self._coro
+                 ^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/client.py", line 787, in _request
+    resp.raise_for_status()
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/client_reqrep.py", line 1093, in raise_for_status
+    raise ClientResponseError(
+aiohttp.client_exceptions.ClientResponseError: 404, message='Not Found', url='http://example.com/file.txt'
+(Pypdl)  12-10-24 13:21:45 - ERROR: (ClientConnectorError) [Cannot connect to host some.proxy.com:80 ssl:default [Name or service not known]]
+Traceback (most recent call last):
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 1301, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 911, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 948, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/resolver.py", line 37, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 103, in download
+    result = self._execute(
+             ^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 177, in _execute
+    file_path, multisegment, etag = self._get_info(
+                                    ^^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 231, in _get_info
+    header = asyncio.run(self._get_header(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 251, in _get_header
+    async with session.head(url, **self._kwargs) as response:
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/client.py", line 1353, in __aenter__
+    self._resp = await self._coro
+                 ^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/client.py", line 657, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 564, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 973, in _create_connection
+    _, proto = await self._create_proxy_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 1375, in _create_proxy_connection
+    transport, proto = await self._create_direct_connection(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 1307, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host some.proxy.com:80 ssl:default [Name or service not known]
+(Pypdl)  12-10-24 13:21:45 - ERROR: (ClientConnectorError) [Cannot connect to host some.proxy.com:80 ssl:default [Name or service not known]]
+Traceback (most recent call last):
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 1301, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 911, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 948, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/resolver.py", line 37, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 103, in download
+    result = self._execute(
+             ^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 177, in _execute
+    file_path, multisegment, etag = self._get_info(
+                                    ^^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 231, in _get_info
+    header = asyncio.run(self._get_header(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 251, in _get_header
+    async with session.head(url, **self._kwargs) as response:
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/client.py", line 1353, in __aenter__
+    self._resp = await self._coro
+                 ^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/client.py", line 657, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 564, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 973, in _create_connection
+    _, proto = await self._create_proxy_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 1375, in _create_proxy_connection
+    transport, proto = await self._create_direct_connection(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 1307, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host some.proxy.com:80 ssl:default [Name or service not known]
+(Pypdl)  12-10-24 13:21:46 - ERROR: (ClientConnectorError) [Cannot connect to host some.proxy.com:80 ssl:default [Name or service not known]]
+Traceback (most recent call last):
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 1301, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 911, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 948, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/resolver.py", line 37, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 103, in download
+    result = self._execute(
+             ^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 177, in _execute
+    file_path, multisegment, etag = self._get_info(
+                                    ^^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 231, in _get_info
+    header = asyncio.run(self._get_header(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 251, in _get_header
+    async with session.head(url, **self._kwargs) as response:
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/client.py", line 1353, in __aenter__
+    self._resp = await self._coro
+                 ^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/client.py", line 657, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 564, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 973, in _create_connection
+    _, proto = await self._create_proxy_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 1375, in _create_proxy_connection
+    transport, proto = await self._create_direct_connection(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 1307, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host some.proxy.com:80 ssl:default [Name or service not known]
+(Pypdl)  12-10-24 13:21:46 - ERROR: (ClientConnectorError) [Cannot connect to host some.proxy.com:80 ssl:default [Name or service not known]]
+Traceback (most recent call last):
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 1301, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 911, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 948, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/resolver.py", line 37, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 103, in download
+    result = self._execute(
+             ^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 177, in _execute
+    file_path, multisegment, etag = self._get_info(
+                                    ^^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 231, in _get_info
+    header = asyncio.run(self._get_header(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 251, in _get_header
+    async with session.head(url, **self._kwargs) as response:
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/client.py", line 1353, in __aenter__
+    self._resp = await self._coro
+                 ^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/client.py", line 657, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 564, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 973, in _create_connection
+    _, proto = await self._create_proxy_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 1375, in _create_proxy_connection
+    transport, proto = await self._create_direct_connection(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 1307, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host some.proxy.com:80 ssl:default [Name or service not known]
+(Pypdl)  12-10-24 13:22:11 - ERROR: (ClientConnectorCertificateError) [Cannot connect to host speed.hetzner.de:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')]]
+Traceback (most recent call last):
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 1080, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs, sock=sock)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/base_events.py", line 1149, in create_connection
+    transport, protocol = await self._create_connection_transport(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/base_events.py", line 1182, in _create_connection_transport
+    await waiter
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/sslproto.py", line 578, in _on_handshake_complete
+    raise handshake_exc
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/sslproto.py", line 560, in _do_handshake
+    self._sslobj.do_handshake()
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/ssl.py", line 917, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 103, in download
+    result = self._execute(
+             ^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 177, in _execute
+    file_path, multisegment, etag = self._get_info(
+                                    ^^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 231, in _get_info
+    header = asyncio.run(self._get_header(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 251, in _get_header
+    async with session.head(url, **self._kwargs) as response:
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/client.py", line 1353, in __aenter__
+    self._resp = await self._coro
+                 ^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/client.py", line 657, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 564, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 975, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 1350, in _create_direct_connection
+    raise last_exc
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 1319, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 1082, in _wrap_create_connection
+    raise ClientConnectorCertificateError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorCertificateError: Cannot connect to host speed.hetzner.de:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')]
+(Pypdl)  12-10-24 13:22:11 - ERROR: (ClientConnectorCertificateError) [Cannot connect to host speed.hetzner.de:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')]]
+Traceback (most recent call last):
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 1080, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs, sock=sock)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/base_events.py", line 1149, in create_connection
+    transport, protocol = await self._create_connection_transport(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/base_events.py", line 1182, in _create_connection_transport
+    await waiter
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/sslproto.py", line 578, in _on_handshake_complete
+    raise handshake_exc
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/sslproto.py", line 560, in _do_handshake
+    self._sslobj.do_handshake()
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/ssl.py", line 917, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 103, in download
+    result = self._execute(
+             ^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 177, in _execute
+    file_path, multisegment, etag = self._get_info(
+                                    ^^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 231, in _get_info
+    header = asyncio.run(self._get_header(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 251, in _get_header
+    async with session.head(url, **self._kwargs) as response:
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/client.py", line 1353, in __aenter__
+    self._resp = await self._coro
+                 ^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/client.py", line 657, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 564, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 975, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 1350, in _create_direct_connection
+    raise last_exc
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 1319, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 1082, in _wrap_create_connection
+    raise ClientConnectorCertificateError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorCertificateError: Cannot connect to host speed.hetzner.de:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')]
+(Pypdl)  12-10-24 13:22:11 - ERROR: (ClientConnectorCertificateError) [Cannot connect to host speed.hetzner.de:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')]]
+Traceback (most recent call last):
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 1080, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs, sock=sock)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/base_events.py", line 1149, in create_connection
+    transport, protocol = await self._create_connection_transport(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/base_events.py", line 1182, in _create_connection_transport
+    await waiter
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/sslproto.py", line 578, in _on_handshake_complete
+    raise handshake_exc
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/sslproto.py", line 560, in _do_handshake
+    self._sslobj.do_handshake()
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/ssl.py", line 917, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 103, in download
+    result = self._execute(
+             ^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 177, in _execute
+    file_path, multisegment, etag = self._get_info(
+                                    ^^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 231, in _get_info
+    header = asyncio.run(self._get_header(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 251, in _get_header
+    async with session.head(url, **self._kwargs) as response:
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/client.py", line 1353, in __aenter__
+    self._resp = await self._coro
+                 ^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/client.py", line 657, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 564, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 975, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 1350, in _create_direct_connection
+    raise last_exc
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 1319, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 1082, in _wrap_create_connection
+    raise ClientConnectorCertificateError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorCertificateError: Cannot connect to host speed.hetzner.de:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')]
+(Pypdl)  12-10-24 13:22:12 - ERROR: (ClientConnectorCertificateError) [Cannot connect to host speed.hetzner.de:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')]]
+Traceback (most recent call last):
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 1080, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs, sock=sock)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/base_events.py", line 1149, in create_connection
+    transport, protocol = await self._create_connection_transport(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/base_events.py", line 1182, in _create_connection_transport
+    await waiter
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/sslproto.py", line 578, in _on_handshake_complete
+    raise handshake_exc
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/sslproto.py", line 560, in _do_handshake
+    self._sslobj.do_handshake()
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/ssl.py", line 917, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 103, in download
+    result = self._execute(
+             ^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 177, in _execute
+    file_path, multisegment, etag = self._get_info(
+                                    ^^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 231, in _get_info
+    header = asyncio.run(self._get_header(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 251, in _get_header
+    async with session.head(url, **self._kwargs) as response:
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/client.py", line 1353, in __aenter__
+    self._resp = await self._coro
+                 ^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/client.py", line 657, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 564, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 975, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 1350, in _create_direct_connection
+    raise last_exc
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 1319, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/connector.py", line 1082, in _wrap_create_connection
+    raise ClientConnectorCertificateError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorCertificateError: Cannot connect to host speed.hetzner.de:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')]
+(Pypdl)  12-10-24 13:23:32 - DEBUG: Reset download manager
+(Pypdl)  12-10-24 13:23:32 - DEBUG: Downloading, url: https://example.com/file.zip attempt: 1
+(Pypdl)  12-10-24 13:23:32 - ERROR: (ClientResponseError) [404, message='Not Found', url='https://example.com/file.zip']
+Traceback (most recent call last):
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 103, in download
+    result = self._execute(
+             ^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 177, in _execute
+    file_path, multisegment, etag = self._get_info(
+                                    ^^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 231, in _get_info
+    header = asyncio.run(self._get_header(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/media/emanuele/research/git/pypdl/pypdl/pypdl_manager.py", line 251, in _get_header
+    async with session.head(url, **self._kwargs) as response:
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/client.py", line 1353, in __aenter__
+    self._resp = await self._coro
+                 ^^^^^^^^^^^^^^^^
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/client.py", line 787, in _request
+    resp.raise_for_status()
+  File "/home/emanuele/.conda/envs/py312/lib/python3.12/site-packages/aiohttp/client_reqrep.py", line 1093, in raise_for_status
+    raise ClientResponseError(
+aiohttp.client_exceptions.ClientResponseError: 404, message='Not Found', url='https://example.com/file.zip'
+(Pypdl)  12-10-24 13:23:32 - DEBUG: Download failed, url: https://example.com/file.zip

@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+pypdl/__init__.py
+pypdl/downloader.py
+pypdl/pypdl_factory.py
+pypdl/pypdl_manager.py
+pypdl/utls.py
+pypdl.egg-info/PKG-INFO
+pypdl.egg-info/SOURCES.txt
+pypdl.egg-info/dependency_links.txt
+pypdl.egg-info/requires.txt
+pypdl.egg-info/top_level.txt
