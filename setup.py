@@ -1,45 +1,44 @@
 from setuptools import setup, find_packages
 
-DESCRIPTION = "A concurrent pure python download manager"
-with open("README.md", "r") as f:
-    LONG_DESCRIPTION = f.read()
-
-with open("pypdl/__init__.py", "r") as f:
-    VERSION = f.readline().split("=")[1].strip().strip("\"'")
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
 
 setup(
-    name="pypdl",
-    version=VERSION,
-    author="mjishnu",
-    author_email="<mjishnu@proton.me>",
-    description=DESCRIPTION,
+    name="async-file-downloader",
+    version="0.1.0",
+    author="Your Name",
+    author_email="your.email@example.com",
+    description="An asynchronous file downloader with advanced features",
+    long_description=long_description,
     long_description_content_type="text/markdown",
-    long_description=LONG_DESCRIPTION,
-    url="https://github.com/mjishnu/pypdl",
-    license="MIT",
-    classifiers={
-        "Development Status :: 5 - Production/Stable",
-        "Programming Language :: Python :: 3",
+    url="https://github.com/yourusername/async-file-downloader",
+    packages=find_packages(where="src"),
+    package_dir={"": "src"},
+    classifiers=[
+        "Development Status :: 3 - Alpha",
+        "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
-    },
-    packages=find_packages(),
-    install_requires=["aiohttp", "aiofiles"],
-    keywords=[
-        "python",
-        "downloader",
-        "multi-threaded-downloader",
-        "concurrent-downloader",
-        "parallel-downloader",
-        "async-downloader",
-        "asyncronous-downloader",
-        "download-manager",
-        "fast-downloader",
-        "download-accelerator",
-        "download-optimizer",
-        "download-utility",
-        "download-tool",
-        "download-automation",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
     ],
-    python_requires=">=3.8",
+    python_requires=">=3.7",
+    install_requires=[
+        "aiohttp",
+        "aiofiles",
+        "tqdm",
+        "opentelemetry-api",
+        "opentelemetry-sdk",
+        "opentelemetry-exporter-otlp",
+        "typer",
+        "python-dotenv",
+        "aiolimiter",
+    ],
+    entry_points={
+        "console_scripts": [
+            "async-downloader=async_file_downloader.cli:app",
+        ],
+    },
 )

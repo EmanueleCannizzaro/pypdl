@@ -1,0 +1,620 @@
+2024-10-12 21:08:23,731 - __main__ - INFO - AsyncFileDownloader session started
+2024-10-12 21:08:23,732 - __main__ - INFO - Starting download of 135 files
+2024-10-12 21:08:23,741 - __main__ - INFO - File already exists: 3871a64e7a04186ca71dc1ddf4c5518e_ORD.pdf
+2024-10-12 21:08:23,742 - __main__ - INFO - File already exists: 5fbf6d007fcae7e2912b17b0ad81dda4_Avviso_di_vendita_ Trib SIRACUSA_Fall 29_2020.pdf
+2024-10-12 21:08:23,742 - __main__ - INFO - File already exists: 92c2f12c570ad885b22c1032be4f4d6d_doc._fotografica_lotto_2.pdf
+2024-10-12 21:08:23,742 - __main__ - INFO - File already exists: e44c1691b5cd0517de1b0a8ea7abac9c_Ordinanza - PVP.pdf
+2024-10-12 21:08:23,742 - __main__ - INFO - File already exists: a35b2bb1fd1702faef838194d2916c4b_Ordinanza G.E. del 22.03.2024 decadenza agg. privacy lotto n.2.pdf
+2024-10-12 21:08:23,742 - __main__ - INFO - File already exists: 7f89f61bb81ac43a9254a5ad4f1fc677_Avviso di Vendita.pdf
+2024-10-12 21:08:23,744 - __main__ - INFO - File already exists: 1a221f3c0f3202ea66d57b958683997d_AVV.pdf
+2024-10-12 21:08:23,745 - __main__ - INFO - File already exists: 464bbe6b8854fbf490e475638d4d0d0b_Avviso_di_vendita_ Trib SIRACUSA_Fall 29_2020.pdf
+2024-10-12 21:08:23,745 - __main__ - INFO - File already exists: 2715574134e286ac426f2fb71efb8b8d_elenco_subalterni_ed_elaborato_planimetrico.pdf
+2024-10-12 21:08:23,745 - __main__ - INFO - File already exists: 0ba46672a21274730f7dd368dbf73837_Perizia - PVP.pdf
+2024-10-12 21:08:23,745 - __main__ - INFO - File already exists: aee5c23d5c776e98c5256bf67f746162_Perizia Proc. 66-2012 Rge_Redacted.pdf
+2024-10-12 21:08:23,746 - __main__ - INFO - File already exists: ddeefe21b64cbbe082ffcd3007cd1343_Perizia_EP.pdf
+2024-10-12 21:08:23,747 - __main__ - INFO - File already exists: 73f70cc9047ab3820d4343fe7267273b_Avviso di vendita.pdf
+2024-10-12 21:08:23,747 - __main__ - INFO - File already exists: df100d1b98b939de444cf7cdd1e23890_PERIZIA_PRIVACY.pdf
+2024-10-12 21:08:23,748 - __main__ - INFO - File already exists: 4576fe45480abdc627f87bda921b3815_Lotto 1 foto + planimetria.pdf
+2024-10-12 21:08:23,748 - __main__ - INFO - File already exists: 8abc7fd4607936cea3298ce945a5c021_ordinanza di vendita.pdf
+2024-10-12 21:08:23,748 - __main__ - INFO - File already exists: 5ef2e4bbfef54fad29275741e11dde8d_Avviso di vendita 6.pdf
+2024-10-12 21:08:23,749 - __main__ - INFO - File already exists: ba7e113c92047c4ea8ffa6791ee9c046_Delega anonima_Redatto.pdf
+2024-10-12 21:08:23,749 - __main__ - INFO - File already exists: 40f5178f5dda8ccbf4e3d8a582547959_INTEGRAZIONE PERIZIA_PRIVACY.pdf
+2024-10-12 21:08:23,749 - __main__ - INFO - File already exists: f993ea537c86b55f29515ffd183d76e5_Ordinanza di delega.pdf
+2024-10-12 21:08:23,749 - __main__ - INFO - File already exists: 29eb8b59a37b3fbe1af54cf5c2ed96fb_Rge 398.2021 Avviso di vendita V Esp.pdf
+2024-10-12 21:08:23,750 - __main__ - INFO - File already exists: 27028c51523425aba4911b6ed2c22e58_DELEGA 06.03.2024.pdf
+2024-10-12 21:08:23,750 - __main__ - INFO - File already exists: 2f96dd3b3ff15e144d88512574cd6b3f_Perizia_Privacy.pdf
+2024-10-12 21:08:23,750 - __main__ - INFO - File already exists: 9f5c8d71ded7c2053630603d62202f2d_Delega avv. Rosso Roberta.pdf
+2024-10-12 21:08:23,751 - __main__ - INFO - File already exists: de9d17d7c6d06c15a7201262259e6326_FALLCO SITO PUBBLICAZIONE - Avviso di vendita.pdf
+2024-10-12 21:08:23,751 - __main__ - INFO - File already exists: 7704874437b2ca5e7bc6a7d5c055e3da_Autorizzazione GE omississ.pdf
+2024-10-12 21:08:23,751 - __main__ - INFO - File already exists: 94b050ca89bee3fd1f662a9ba41ade14_Avviso di vendita.pdf
+2024-10-12 21:08:23,752 - __main__ - INFO - File already exists: a53364e4c3eb628ec10abb206865d493_foto.pdf
+2024-10-12 21:08:23,753 - __main__ - INFO - File already exists: c6b1d98377de93b4eb7c9533e62f33f4_Avviso vendita privacy.pdf
+2024-10-12 21:08:23,753 - __main__ - INFO - File already exists: e7b71cf8acd10b5e7fcee1be96023db1_Perizia.pdf
+2024-10-12 21:08:23,754 - __main__ - INFO - File already exists: 611736628c70689ba918448ebb7a6cf6_Bando di vendita del 11.10.2024.pdf
+2024-10-12 21:08:23,754 - __main__ - INFO - File already exists: 31398c58a7218d6e19e3518d4374181a_ordinanza di vendita.pdf
+2024-10-12 21:08:23,755 - __main__ - INFO - File already exists: 06520addad5d9111befa787c3e321c0a_planimetria catastale.pdf
+2024-10-12 21:08:23,756 - __main__ - INFO - File already exists: e79ba195ceedcb77b882e344d26f77da_AVVISO~PROC 91 2010.pdf
+2024-10-12 21:08:23,756 - __main__ - INFO - File already exists: 1d5c3b014c93ed83e499bfe5ebb25dc1_2 avviso - 228.17.pdf
+2024-10-12 21:08:23,757 - __main__ - INFO - File already exists: 934e799de2cb9d94ce19db8d7f34f41b_Perizia omississ.pdf
+2024-10-12 21:08:23,757 - __main__ - INFO - File already exists: db2ed749d744899cb71ce4429c38557d_PERIZIA_Redatto.pdf
+2024-10-12 21:08:23,758 - __main__ - INFO - File already exists: 195d1501bc62a9ba3352eeb552ca8abb_avviso vendita_24-10-2024.pdf
+2024-10-12 21:08:23,758 - __main__ - INFO - File already exists: c8c59ce6a7de44b518cdc3da68abff01_ordinanza nov 2023 proc 91 2010.pdf
+2024-10-12 21:08:23,759 - __main__ - INFO - File already exists: 0bd97f0f7052a03e2d14827b215c69a9_ordinanza di delega (2).pdf
+2024-10-12 21:08:23,759 - __main__ - INFO - File already exists: b3e3ca0fea9bf8e29a7fbfd5e2a20fdd_I avviso-di-vendita-telematica.pdf
+2024-10-12 21:08:23,760 - __main__ - INFO - File already exists: bda878654774aaa4ef14373a4abbd207_PLANIMETRIE.pdf
+2024-10-12 21:08:23,760 - __main__ - INFO - File already exists: b7a91055b36e2672cc85ffb35a9db172_13778112s_nuove_modalità.pdf
+2024-10-12 21:08:23,761 - __main__ - INFO - File already exists: 4143a971a220bce562db53e6692af4b6_Extracted pages from perizia ok_compressed_Redatto1.pdf
+2024-10-12 21:08:23,761 - __main__ - INFO - File already exists: 1d203b904bae624af26230bae2130ec6_perizia_privacy.pdf
+2024-10-12 21:08:23,762 - __main__ - INFO - File already exists: 790324121bfe62095f091145f46b8b39_ordinanza di vendita.pdf
+2024-10-12 21:08:23,762 - __main__ - INFO - File already exists: d533ca8447c9b9a745886d8b0c3d33b9_foto.pdf
+2024-10-12 21:08:23,763 - __main__ - INFO - File already exists: 34f1124cee1ed611fd918f5a4abc1745_RISPOSTA DEL 17.06.2022 A SEG. DI PROVV. DEL 07.10.2022 (1)[1]_Redatto.pdf
+2024-10-12 21:08:23,763 - __main__ - INFO - File already exists: 44318405db1b44fc23181eb7ca49082e_Ordinanza di vendita delegata.pdf
+2024-10-12 21:08:23,764 - __main__ - INFO - File already exists: eb587f49795cb61def3dabc80ddd100c___Docserver3_Documenti_Aste_Livorno_Ricorso per omologazione piano di ristrutturazione_2024_LI-PU11-1-2024_bck_NOF_NOF-Avviso-LI-PU11-1-2024-DV20241001-59.pdf
+2024-10-12 21:08:23,764 - __main__ - INFO - File already exists: 0bd0a1f5ba14280c96e017baab09d488_2-All.to+A+-+Relazione+di+stima+262-2022+ANONIMA (1).pdf
+2024-10-12 21:08:23,765 - __main__ - INFO - File already exists: b2d91af2bb30eb9c6fc1b0e644bc8000_2 avviso_vendita_ES IMM 287_2023.pdf
+2024-10-12 21:08:23,765 - __main__ - INFO - File already exists: 45e8e9476f48bd88183cc8561082bad2_CATASTO E PLANIMETRIE.pdf
+2024-10-12 21:08:23,765 - __main__ - INFO - File already exists: e830eb61ce097fa192590fe26c30299f_Estratti di mappa - lotti 54-55-56-58-59-60.pdf
+2024-10-12 21:08:23,766 - __main__ - INFO - File already exists: ef2838e62aae364af9713b61b6cf627f_foto.pdf
+2024-10-12 21:08:23,766 - __main__ - INFO - File already exists: a3c8cceca8713fc7d7676e348697bd59_AVVISO DI VENDITA TELEMATICA SPIL_01-10-24.pdf
+2024-10-12 21:08:23,767 - __main__ - INFO - File already exists: 4c2ed337fb9bb55a54ef6542e575000e_All.to+C+-+Planimetrie.pdf
+2024-10-12 21:08:23,767 - __main__ - INFO - File already exists: 3e297a92f25a0f6fc5716ce71cfe6caa_ordinanza di vendita.pdf
+2024-10-12 21:08:23,768 - __main__ - INFO - File already exists: 6fda7b5c92b8ef8d92bbb13fd5e43fd0_Avviso di vendita.pdf
+2024-10-12 21:08:23,768 - __main__ - INFO - File already exists: 4202bb93f223fe4d9a330bd86cdb433a_perizia ok_compressed_Redatto1.pdf
+2024-10-12 21:08:23,769 - __main__ - INFO - File already exists: e441f7d1e980bc7973f6fbcbfc854b18_ordinanza di vendita.pdf
+2024-10-12 21:08:23,769 - __main__ - INFO - File already exists: a23334fea0f331ece469d9eaf41be40c_All.to+B+-+Doc+fotografica_compressed.pdf
+2024-10-12 21:08:23,770 - __main__ - INFO - File already exists: cae391a5dc661d31b43c6b3031ebaf61_Rge 398.2021 Avviso di vendita V Esp.pdf
+2024-10-12 21:08:23,770 - __main__ - INFO - File already exists: f51b8ed79f71e41a28ea3d8de44540fd_Perizia - lotti 54-55-56-58-59-60.pdf
+2024-10-12 21:08:23,770 - __main__ - INFO - File already exists: 0e4605ae1dbb3a9fd5089e0de954e157_2_ AVVISO VENDITA TELEMATICA E.I. 243_2023_signed.pdf
+2024-10-12 21:08:23,771 - __main__ - INFO - File already exists: dda5c0683eda20e888626da8be80a8b6_ordinanza.pdf
+2024-10-12 21:08:23,771 - __main__ - INFO - File already exists: e3d6c23a398d53a5569450ddd2be1edc_Rge 398.2021 Avviso di vendita V Esp.pdf
+2024-10-12 21:08:23,772 - __main__ - INFO - File already exists: a1628d2b3ed1720e9352fb50df67a381_C.D.U. zona F Punta Molara.pdf
+2024-10-12 21:08:23,772 - __main__ - INFO - File already exists: 355d06b01c94c46a1c0e67df0efae2b3_Perizia Lotto 1_EP.pdf
+2024-10-12 21:08:23,773 - __main__ - INFO - File already exists: 32a7f13188f010cd45e19e5c5bb2b4ee_Ordinanza.pdf
+2024-10-12 21:08:23,773 - __main__ - INFO - File already exists: 517bd4663be5dbd96bd2305d384088ce_Ordinanza-VEL-EICA-243-2023-DV20240509-1.pdf
+2024-10-12 21:08:23,774 - __main__ - INFO - File already exists: d02f95207ae574e217e4a77dea75cff7_delega.pdf
+2024-10-12 21:08:23,774 - __main__ - INFO - File already exists: ca8b0b704d5a260a33438c337c395c6a_Ordinanza di vendita 21.02.24.pdf
+2024-10-12 21:08:23,774 - __main__ - INFO - File already exists: 16f5e3f4222b99a4803bd332a2f48918_Allegati perizia senza dati sens.pdf
+2024-10-12 21:08:23,775 - __main__ - INFO - File already exists: 123a3c96fab2656ba4f74b3607be13d5_Avviso di vendita 4 (8).pdf
+2024-10-12 21:08:23,775 - __main__ - INFO - File already exists: a41b7dbc236887bfa5dbdc9b3753ba06_Perizia.pdf
+2024-10-12 21:08:23,776 - __main__ - INFO - File already exists: 1b7cf21004af9314e4c94cd41c9bceeb_2024.03.07 - Modifica ordinanza di delega ex art  591 bis cpc L'Aquila.pdf
+2024-10-12 21:08:23,776 - __main__ - INFO - File already exists: e0b2a949c49bbc88699f79e9507d41a6_Perizia-VEL-EICA-243-2023-C-1.pdf
+2024-10-12 21:08:23,777 - __main__ - INFO - File already exists: 1f6473a013664122aec83fdcd0cdfdf8_Avviso di vendita 27.06.24 dep.pdf
+2024-10-12 21:08:23,777 - __main__ - INFO - File already exists: 6cb441231d318356856d1a99db4e7d97_Estratto sentenza di fallimento.pdf
+2024-10-12 21:08:23,778 - __main__ - INFO - File already exists: 822df7f43c92ab338602548dac29bef8_Avviso di Vendita VI Lotto A-B.pdf
+2024-10-12 21:08:23,778 - __main__ - INFO - File already exists: c719e20bfa91d080d64e142de48773cf_2023.12.12 - Allegato Nomina Professionista Delegato.pdf
+2024-10-12 21:08:23,778 - __main__ - INFO - File already exists: a050fec57cfc821d05c177ee5dcf7186_Avviso di vendita.pdf
+2024-10-12 21:08:23,779 - __main__ - INFO - File already exists: 2d82749b810dc5199585693d4ae6738e_Relazione DEF privacy.pdf
+2024-10-12 21:08:23,779 - __main__ - INFO - File already exists: 21c2e4b9dece9b3360ac3a649a5d9c85_Perizia.pdf
+2024-10-12 21:08:23,780 - __main__ - INFO - File already exists: 77d5d26c3f34f332b26130c5cb59311a_Relazione DEF privacy.pdf
+2024-10-12 21:08:23,780 - __main__ - INFO - File already exists: c792847c47824ba20ccc46065285dac5_Ordinanza di vendita del 17.07.2024.pdf
+2024-10-12 21:08:23,781 - __main__ - INFO - File already exists: 731ec833d19c5da77db8fcd0f6eaa11c_Ordinanza vendita.pdf
+2024-10-12 21:08:23,781 - __main__ - INFO - File already exists: 2cec3d35949fc2d36126302f0cfb061f_AVV.pdf
+2024-10-12 21:08:23,781 - __main__ - INFO - File already exists: 698f933e4acaa47061774f1b05b63d7e_Estratto sentenza di fallimento.pdf
+2024-10-12 21:08:23,781 - __main__ - INFO - File already exists: a5244bee191a88fbf8351e91ee761663_Prospetto riepilogativo LOTTO 1.pdf
+2024-10-12 21:08:23,782 - __main__ - INFO - File already exists: 6aa2c76cdb5eca22a7f928ed535ffc2e_Avviso di vendita.pdf
+2024-10-12 21:08:23,782 - __main__ - INFO - File already exists: b7118385b03189bb2bdab27aaad348aa_Ordinanza di vendita del 27.04.2021.pdf
+2024-10-12 21:08:23,782 - __main__ - INFO - File already exists: aaed91b06080992332224a50322a4f50_AVVISO DI VENDITA 156-2010 (2).pdf
+2024-10-12 21:08:23,782 - __main__ - INFO - File already exists: 0b9dc198c2cf3b6c61f1efee85775c44_Nuovo Avviso 12.11.2024 Vendita Esecuzioni Lotto n.2  proc. 66-2012 rge-signed.pdf
+2024-10-12 21:08:23,783 - __main__ - INFO - File already exists: f5edcda794419dd885f4a22889974b67_C.D.U. zona F Punta Molara.pdf
+2024-10-12 21:08:23,783 - __main__ - INFO - File already exists: 6240858603ac7353f3db79091d16fd8c_Foto LOTTO 1.pdf
+2024-10-12 21:08:23,784 - __main__ - INFO - File already exists: d937762d9de4e0ce209dc4d7c7fa874b_ORDINANZA.pdf
+2024-10-12 21:08:23,784 - __main__ - INFO - File already exists: e7dcfaa62132a438eb7bb89d293337fe_perizia_versione_privacy.pdf
+2024-10-12 21:08:23,784 - __main__ - INFO - File already exists: 3d9097364adea86354b68978dd1e30a2_PERIZIA 156-2010_compressed (1)_Redacted.pdf
+2024-10-12 21:08:23,784 - __main__ - INFO - File already exists: 5d3c3dd7f48cd641b18e1da491c9dd57_Ordinanza GE del 10.07.2024 Lotto n.2 Proc. 66-2012 rge.pdf
+2024-10-12 21:08:23,785 - __main__ - INFO - File already exists: c9c1ace24c79cc45a08dae157ae97942_avviso vendita telematica firmato pb.pdf
+2024-10-12 21:08:23,785 - __main__ - INFO - File already exists: 487e4c4075eab54d1abe186b43389b2f_Allegati perizia senza dati sens.pdf
+2024-10-12 21:08:23,786 - __main__ - INFO - File already exists: cb02c62f1921c80d8b85a467fd1873a5_EDM LOTTO 1.pdf
+2024-10-12 21:08:23,786 - __main__ - INFO - File already exists: 7f918f4227c22d30a271dedba670abec_AVVISO VENDITA II.pdf
+2024-10-12 21:08:23,787 - __main__ - INFO - File already exists: 7877a98d096d26084603ad95a113231e_DELEGA 156-2010.pdf
+2024-10-12 21:08:23,787 - __main__ - INFO - File already exists: 02bbb01e23f1d046b42f05b2ae993834_Nomina Custode e Delegato Proc.66-2012 rge .pdf
+2024-10-12 21:08:23,787 - __main__ - INFO - File already exists: 3b190bb924070df90f7b220a0c0fab03_Avviso di vendita.pdf
+2024-10-12 21:08:23,788 - __main__ - INFO - File already exists: 5c2eb4879858bcd0a14c92d57b1eb63a_Foto lotto n.2 Proc. 66-2012 rge .pdf
+2024-10-12 21:08:24,363 - __main__ - INFO - Successfully downloaded: 7d2461505e489a29aa3ef0e315f3e428_Avviso di vendita 268 - 2023 - I - 07.01.2025.pdf (269328 bytes)
+2024-10-12 21:08:24,372 - __main__ - INFO - Successfully downloaded: 7c517c6e60fc93c705b1e102c439a974_RGE 458-2023 - Perizia PER PUBBLICITA'.pdf (338959 bytes)
+2024-10-12 21:08:24,464 - __main__ - INFO - Successfully downloaded: d3a805dd1aff04923f815abd84f58f0b_Ordinanza di vendita.pdf (483589 bytes)
+2024-10-12 21:08:24,552 - __main__ - INFO - Successfully downloaded: 37faf00991b7b39548b4c835cd9cb04c_nomina delegato per pubblicità 458-23.pdf (665177 bytes)
+2024-10-12 21:08:26,059 - __main__ - INFO - Successfully downloaded: 35265f469fb0dd2c123c8d67138aae25_CTU Privacy_Redatto.pdf (7648856 bytes)
+2024-10-12 21:08:40,065 - __main__ - INFO - Successfully downloaded: 99df3f1c916c7571960965392b0aca0a_Foto.pdf (3542772 bytes)
+2024-10-12 21:08:53,694 - __main__ - INFO - Successfully downloaded: c9ce16cdf70f4d8c981f7172e82bb26b_avviso di vendita telematica  RGE 458-2023 del 16.07.2024.pdf (6280882 bytes)
+2024-10-12 21:09:00,562 - __main__ - INFO - Successfully downloaded: 5df8b3c423e754e2a54ccaaec4653403_Relazione di stima_PRIVACY Proc. N.209-2021 R.G.E..pdf (1168067 bytes)
+2024-10-12 21:09:12,076 - __main__ - INFO - Successfully downloaded: b826a21a6ed16d8501df73bc0ad2de8c_ORDINANZA DI VENDITA.pdf (298363 bytes)
+2024-10-12 21:09:24,137 - __main__ - INFO - Successfully downloaded: 8fafacbd31e5ce4e6e02eb5d31243b10_delega 209-2021.pdf (364208 bytes)
+2024-10-12 21:09:36,131 - __main__ - INFO - Successfully downloaded: 6292fc1254ecb37ed6536a8ad4eda890_18-2023 AVVISO DI VENDITA - II ESPERIMENTO.pdf (354225 bytes)
+2024-10-12 21:09:48,222 - __main__ - INFO - Successfully downloaded: c9adb1545ecc856273dfdd63ac5ddc7c_avviso vendita per il 27.11.2024.pdf (556672 bytes)
+2024-10-12 21:10:00,231 - __main__ - INFO - Successfully downloaded: 774a5c5f3e9b4d668380a2c51e144a50_Perizia_Privacy_Lotto Unico.pdf (679995 bytes)
+2024-10-12 21:10:13,191 - __main__ - INFO - Successfully downloaded: e84c0d22f577c50d8ce1d21762fd39b0_foto sub. 11.pdf (3481859 bytes)
+2024-10-12 21:10:24,578 - __main__ - INFO - Successfully downloaded: b63776a22132205a20f7c4051dfc65ca_Fotografie LOTTO UNICO_Redacted.pdf (2410601 bytes)
+2024-10-12 21:10:35,874 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/4240183/Documentazione%20Fotografica%20-%20lotti%2054-55-56-58-59-60.pdf?versionId=69f6b24a-10de-49ed-a813-6eeba761aaf3: 404, message='HTTP 404', url='https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/4240183/Documentazione%20Fotografica%20-%20lotti%2054-55-56-58-59-60.pdf?versionId=69f6b24a-10de-49ed-a813-6eeba761aaf3'
+2024-10-12 21:10:48,088 - __main__ - INFO - Successfully downloaded: f11fce33c70fee61fcfa219604f1fb29_Planimetrie LOTTO UNICO.pdf (251184 bytes)
+2024-10-12 21:11:00,141 - __main__ - INFO - Successfully downloaded: 32c627f55c60bf2a4a9c3c5e0fdd5d32_Avviso di vendita 4 (8).pdf (311074 bytes)
+2024-10-12 21:11:12,185 - __main__ - INFO - Successfully downloaded: cb936f58741cd74d65c43ea9bcbb9a41_1. Avviso di vendita_mer06.11.2024_ore9.pdf (506299 bytes)
+2024-10-12 21:11:24,144 - __main__ - INFO - Successfully downloaded: e9c5e9090d7d03e2d8880ae5b296d74a_4 avviso di vendita 143-2022.pdf (364047 bytes)
+2024-10-12 21:11:37,379 - __main__ - INFO - Successfully downloaded: fde8beba33a67410d94f27204ff3d2b9_Relazione fotografica epurata (1)_Redacted.pdf (7156124 bytes)
+2024-10-12 21:11:48,182 - __main__ - INFO - Successfully downloaded: c9f607bd90e8104e39c64144ae119fe3_E.I. 143-2022 - Copia Epurata ctu.pdf (518011 bytes)
+2024-10-12 21:12:09,520 - __main__ - INFO - Successfully downloaded: f98c5c8be2565d72de2282221c96eb63_ordinanza di vendita.pdf (16176884 bytes)
+2024-10-12 21:12:12,169 - __main__ - INFO - Successfully downloaded: 3a661990b8473c8cf75828699ef0a018_Rge 398.2021 Avviso di vendita V Esp.pdf (349164 bytes)
+2024-10-12 21:12:24,112 - __main__ - INFO - Successfully downloaded: 585b09cd009efda41eba8065de944039_Avviso di vendita.pdf (202861 bytes)
+2024-10-12 21:12:36,445 - __main__ - INFO - Successfully downloaded: 1a02f2e7b881a43010108c3480cb5e99_CTU terreno Lotto 2_EP.pdf (1590858 bytes)
+2024-10-12 21:12:47,948 - __main__ - WARNING - Attempt 2 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/4240183/Documentazione%20Fotografica%20-%20lotti%2054-55-56-58-59-60.pdf?versionId=69f6b24a-10de-49ed-a813-6eeba761aaf3: 404, message='HTTP 404', url='https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/4240183/Documentazione%20Fotografica%20-%20lotti%2054-55-56-58-59-60.pdf?versionId=69f6b24a-10de-49ed-a813-6eeba761aaf3'
+2024-10-12 21:13:02,010 - __main__ - WARNING - Attempt 3 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/4240183/Documentazione%20Fotografica%20-%20lotti%2054-55-56-58-59-60.pdf?versionId=69f6b24a-10de-49ed-a813-6eeba761aaf3: 404, message='HTTP 404', url='https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/4240183/Documentazione%20Fotografica%20-%20lotti%2054-55-56-58-59-60.pdf?versionId=69f6b24a-10de-49ed-a813-6eeba761aaf3'
+2024-10-12 21:13:02,011 - __main__ - ERROR - Failed to download https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/4240183/Documentazione%20Fotografica%20-%20lotti%2054-55-56-58-59-60.pdf?versionId=69f6b24a-10de-49ed-a813-6eeba761aaf3 after 3 attempts
+2024-10-12 21:13:02,012 - __main__ - INFO - Completed download of 135 files
+2024-10-12 21:13:02,013 - __main__ - INFO - Download Summary:
+2024-10-12 21:13:02,013 - __main__ - INFO -   Total files: 135
+2024-10-12 21:13:02,013 - __main__ - INFO -   Successful downloads: 134
+2024-10-12 21:13:02,013 - __main__ - INFO -   Failed downloads: 1
+2024-10-12 21:13:02,013 - __main__ - INFO -   Total bytes downloaded: 55,970,059 bytes
+2024-10-12 21:13:02,013 - __main__ - INFO -   Total duration: 278.28 seconds
+2024-10-12 21:13:02,014 - __main__ - INFO -   Average download speed: 0.19 MB/s
+2024-10-12 21:13:02,014 - __main__ - INFO - AsyncFileDownloader session ended
+2024-10-12 21:16:48,493 - __main__ - INFO - AsyncFileDownloader session started
+2024-10-12 21:16:48,493 - __main__ - INFO - Starting download of 135 files
+2024-10-12 21:16:48,500 - __main__ - INFO - File already exists: 3871a64e7a04186ca71dc1ddf4c5518e_ORD.pdf
+2024-10-12 21:16:48,501 - __main__ - INFO - File already exists: 5fbf6d007fcae7e2912b17b0ad81dda4_Avviso_di_vendita_ Trib SIRACUSA_Fall 29_2020.pdf
+2024-10-12 21:16:48,501 - __main__ - INFO - File already exists: 92c2f12c570ad885b22c1032be4f4d6d_doc._fotografica_lotto_2.pdf
+2024-10-12 21:16:48,501 - __main__ - INFO - File already exists: e44c1691b5cd0517de1b0a8ea7abac9c_Ordinanza - PVP.pdf
+2024-10-12 21:16:48,502 - __main__ - INFO - File already exists: a35b2bb1fd1702faef838194d2916c4b_Ordinanza G.E. del 22.03.2024 decadenza agg. privacy lotto n.2.pdf
+2024-10-12 21:16:48,502 - __main__ - INFO - File already exists: 7f89f61bb81ac43a9254a5ad4f1fc677_Avviso di Vendita.pdf
+2024-10-12 21:16:48,502 - __main__ - INFO - File already exists: 35265f469fb0dd2c123c8d67138aae25_CTU Privacy_Redatto.pdf
+2024-10-12 21:16:48,502 - __main__ - INFO - File already exists: 1a221f3c0f3202ea66d57b958683997d_AVV.pdf
+2024-10-12 21:16:48,502 - __main__ - INFO - File already exists: 464bbe6b8854fbf490e475638d4d0d0b_Avviso_di_vendita_ Trib SIRACUSA_Fall 29_2020.pdf
+2024-10-12 21:16:48,503 - __main__ - INFO - File already exists: 2715574134e286ac426f2fb71efb8b8d_elenco_subalterni_ed_elaborato_planimetrico.pdf
+2024-10-12 21:16:48,503 - __main__ - INFO - File already exists: 0ba46672a21274730f7dd368dbf73837_Perizia - PVP.pdf
+2024-10-12 21:16:48,503 - __main__ - INFO - File already exists: aee5c23d5c776e98c5256bf67f746162_Perizia Proc. 66-2012 Rge_Redacted.pdf
+2024-10-12 21:16:48,503 - __main__ - INFO - File already exists: ddeefe21b64cbbe082ffcd3007cd1343_Perizia_EP.pdf
+2024-10-12 21:16:48,504 - __main__ - INFO - File already exists: d3a805dd1aff04923f815abd84f58f0b_Ordinanza di vendita.pdf
+2024-10-12 21:16:48,504 - __main__ - INFO - File already exists: 73f70cc9047ab3820d4343fe7267273b_Avviso di vendita.pdf
+2024-10-12 21:16:48,505 - __main__ - INFO - File already exists: df100d1b98b939de444cf7cdd1e23890_PERIZIA_PRIVACY.pdf
+2024-10-12 21:16:48,505 - __main__ - INFO - File already exists: 37faf00991b7b39548b4c835cd9cb04c_nomina delegato per pubblicità 458-23.pdf
+2024-10-12 21:16:48,506 - __main__ - INFO - File already exists: 4576fe45480abdc627f87bda921b3815_Lotto 1 foto + planimetria.pdf
+2024-10-12 21:16:48,506 - __main__ - INFO - File already exists: 8abc7fd4607936cea3298ce945a5c021_ordinanza di vendita.pdf
+2024-10-12 21:16:48,506 - __main__ - INFO - File already exists: 5ef2e4bbfef54fad29275741e11dde8d_Avviso di vendita 6.pdf
+2024-10-12 21:16:48,507 - __main__ - INFO - File already exists: 7d2461505e489a29aa3ef0e315f3e428_Avviso di vendita 268 - 2023 - I - 07.01.2025.pdf
+2024-10-12 21:16:48,507 - __main__ - INFO - File already exists: ba7e113c92047c4ea8ffa6791ee9c046_Delega anonima_Redatto.pdf
+2024-10-12 21:16:48,507 - __main__ - INFO - File already exists: 40f5178f5dda8ccbf4e3d8a582547959_INTEGRAZIONE PERIZIA_PRIVACY.pdf
+2024-10-12 21:16:48,507 - __main__ - INFO - File already exists: 7c517c6e60fc93c705b1e102c439a974_RGE 458-2023 - Perizia PER PUBBLICITA'.pdf
+2024-10-12 21:16:48,507 - __main__ - INFO - File already exists: f993ea537c86b55f29515ffd183d76e5_Ordinanza di delega.pdf
+2024-10-12 21:16:48,508 - __main__ - INFO - File already exists: 29eb8b59a37b3fbe1af54cf5c2ed96fb_Rge 398.2021 Avviso di vendita V Esp.pdf
+2024-10-12 21:16:48,508 - __main__ - INFO - File already exists: 27028c51523425aba4911b6ed2c22e58_DELEGA 06.03.2024.pdf
+2024-10-12 21:16:48,508 - __main__ - INFO - File already exists: 99df3f1c916c7571960965392b0aca0a_Foto.pdf
+2024-10-12 21:16:48,508 - __main__ - INFO - File already exists: 2f96dd3b3ff15e144d88512574cd6b3f_Perizia_Privacy.pdf
+2024-10-12 21:16:48,509 - __main__ - INFO - File already exists: 9f5c8d71ded7c2053630603d62202f2d_Delega avv. Rosso Roberta.pdf
+2024-10-12 21:16:48,509 - __main__ - INFO - File already exists: c9ce16cdf70f4d8c981f7172e82bb26b_avviso di vendita telematica  RGE 458-2023 del 16.07.2024.pdf
+2024-10-12 21:16:48,509 - __main__ - INFO - File already exists: de9d17d7c6d06c15a7201262259e6326_FALLCO SITO PUBBLICAZIONE - Avviso di vendita.pdf
+2024-10-12 21:16:48,509 - __main__ - INFO - File already exists: 7704874437b2ca5e7bc6a7d5c055e3da_Autorizzazione GE omississ.pdf
+2024-10-12 21:16:48,509 - __main__ - INFO - File already exists: 94b050ca89bee3fd1f662a9ba41ade14_Avviso di vendita.pdf
+2024-10-12 21:16:48,510 - __main__ - INFO - File already exists: 5df8b3c423e754e2a54ccaaec4653403_Relazione di stima_PRIVACY Proc. N.209-2021 R.G.E..pdf
+2024-10-12 21:16:48,510 - __main__ - INFO - File already exists: a53364e4c3eb628ec10abb206865d493_foto.pdf
+2024-10-12 21:16:48,510 - __main__ - INFO - File already exists: c6b1d98377de93b4eb7c9533e62f33f4_Avviso vendita privacy.pdf
+2024-10-12 21:16:48,510 - __main__ - INFO - File already exists: b826a21a6ed16d8501df73bc0ad2de8c_ORDINANZA DI VENDITA.pdf
+2024-10-12 21:16:48,511 - __main__ - INFO - File already exists: c9c1ace24c79cc45a08dae157ae97942_avviso vendita telematica firmato pb.pdf
+2024-10-12 21:16:48,511 - __main__ - INFO - File already exists: e7b71cf8acd10b5e7fcee1be96023db1_Perizia.pdf
+2024-10-12 21:16:48,511 - __main__ - INFO - File already exists: 611736628c70689ba918448ebb7a6cf6_Bando di vendita del 11.10.2024.pdf
+2024-10-12 21:16:48,511 - __main__ - INFO - File already exists: 31398c58a7218d6e19e3518d4374181a_ordinanza di vendita.pdf
+2024-10-12 21:16:48,511 - __main__ - INFO - File already exists: 8fafacbd31e5ce4e6e02eb5d31243b10_delega 209-2021.pdf
+2024-10-12 21:16:48,511 - __main__ - INFO - File already exists: 06520addad5d9111befa787c3e321c0a_planimetria catastale.pdf
+2024-10-12 21:16:48,512 - __main__ - INFO - File already exists: e79ba195ceedcb77b882e344d26f77da_AVVISO~PROC 91 2010.pdf
+2024-10-12 21:16:48,512 - __main__ - INFO - File already exists: 6292fc1254ecb37ed6536a8ad4eda890_18-2023 AVVISO DI VENDITA - II ESPERIMENTO.pdf
+2024-10-12 21:16:48,512 - __main__ - INFO - File already exists: 1d5c3b014c93ed83e499bfe5ebb25dc1_2 avviso - 228.17.pdf
+2024-10-12 21:16:48,512 - __main__ - INFO - File already exists: 934e799de2cb9d94ce19db8d7f34f41b_Perizia omississ.pdf
+2024-10-12 21:16:48,513 - __main__ - INFO - File already exists: db2ed749d744899cb71ce4429c38557d_PERIZIA_Redatto.pdf
+2024-10-12 21:16:48,513 - __main__ - INFO - File already exists: c9adb1545ecc856273dfdd63ac5ddc7c_avviso vendita per il 27.11.2024.pdf
+2024-10-12 21:16:48,513 - __main__ - INFO - File already exists: 195d1501bc62a9ba3352eeb552ca8abb_avviso vendita_24-10-2024.pdf
+2024-10-12 21:16:48,513 - __main__ - INFO - File already exists: c8c59ce6a7de44b518cdc3da68abff01_ordinanza nov 2023 proc 91 2010.pdf
+2024-10-12 21:16:48,513 - __main__ - INFO - File already exists: 774a5c5f3e9b4d668380a2c51e144a50_Perizia_Privacy_Lotto Unico.pdf
+2024-10-12 21:16:48,514 - __main__ - INFO - File already exists: 0bd97f0f7052a03e2d14827b215c69a9_ordinanza di delega (2).pdf
+2024-10-12 21:16:48,514 - __main__ - INFO - File already exists: b3e3ca0fea9bf8e29a7fbfd5e2a20fdd_I avviso-di-vendita-telematica.pdf
+2024-10-12 21:16:48,514 - __main__ - INFO - File already exists: bda878654774aaa4ef14373a4abbd207_PLANIMETRIE.pdf
+2024-10-12 21:16:48,514 - __main__ - INFO - File already exists: e84c0d22f577c50d8ce1d21762fd39b0_foto sub. 11.pdf
+2024-10-12 21:16:48,515 - __main__ - INFO - File already exists: b7a91055b36e2672cc85ffb35a9db172_13778112s_nuove_modalità.pdf
+2024-10-12 21:16:48,515 - __main__ - INFO - File already exists: 4143a971a220bce562db53e6692af4b6_Extracted pages from perizia ok_compressed_Redatto1.pdf
+2024-10-12 21:16:48,515 - __main__ - INFO - File already exists: b63776a22132205a20f7c4051dfc65ca_Fotografie LOTTO UNICO_Redacted.pdf
+2024-10-12 21:16:48,515 - __main__ - INFO - File already exists: 1d203b904bae624af26230bae2130ec6_perizia_privacy.pdf
+2024-10-12 21:16:48,516 - __main__ - INFO - File already exists: 790324121bfe62095f091145f46b8b39_ordinanza di vendita.pdf
+2024-10-12 21:16:48,516 - __main__ - INFO - File already exists: d533ca8447c9b9a745886d8b0c3d33b9_foto.pdf
+2024-10-12 21:16:48,518 - __main__ - INFO - File already exists: 34f1124cee1ed611fd918f5a4abc1745_RISPOSTA DEL 17.06.2022 A SEG. DI PROVV. DEL 07.10.2022 (1)[1]_Redatto.pdf
+2024-10-12 21:16:48,518 - __main__ - INFO - File already exists: f11fce33c70fee61fcfa219604f1fb29_Planimetrie LOTTO UNICO.pdf
+2024-10-12 21:16:48,518 - __main__ - INFO - File already exists: eb587f49795cb61def3dabc80ddd100c___Docserver3_Documenti_Aste_Livorno_Ricorso per omologazione piano di ristrutturazione_2024_LI-PU11-1-2024_bck_NOF_NOF-Avviso-LI-PU11-1-2024-DV20241001-59.pdf
+2024-10-12 21:16:48,518 - __main__ - INFO - File already exists: 0bd0a1f5ba14280c96e017baab09d488_2-All.to+A+-+Relazione+di+stima+262-2022+ANONIMA (1).pdf
+2024-10-12 21:16:48,518 - __main__ - INFO - File already exists: b2d91af2bb30eb9c6fc1b0e644bc8000_2 avviso_vendita_ES IMM 287_2023.pdf
+2024-10-12 21:16:48,519 - __main__ - INFO - File already exists: 45e8e9476f48bd88183cc8561082bad2_CATASTO E PLANIMETRIE.pdf
+2024-10-12 21:16:48,519 - __main__ - INFO - File already exists: e830eb61ce097fa192590fe26c30299f_Estratti di mappa - lotti 54-55-56-58-59-60.pdf
+2024-10-12 21:16:48,519 - __main__ - INFO - File already exists: ef2838e62aae364af9713b61b6cf627f_foto.pdf
+2024-10-12 21:16:48,519 - __main__ - INFO - File already exists: a3c8cceca8713fc7d7676e348697bd59_AVVISO DI VENDITA TELEMATICA SPIL_01-10-24.pdf
+2024-10-12 21:16:48,520 - __main__ - INFO - File already exists: 4c2ed337fb9bb55a54ef6542e575000e_All.to+C+-+Planimetrie.pdf
+2024-10-12 21:16:48,520 - __main__ - INFO - File already exists: 3e297a92f25a0f6fc5716ce71cfe6caa_ordinanza di vendita.pdf
+2024-10-12 21:16:48,520 - __main__ - INFO - File already exists: 6fda7b5c92b8ef8d92bbb13fd5e43fd0_Avviso di vendita.pdf
+2024-10-12 21:16:48,520 - __main__ - INFO - File already exists: 4202bb93f223fe4d9a330bd86cdb433a_perizia ok_compressed_Redatto1.pdf
+2024-10-12 21:16:48,521 - __main__ - INFO - File already exists: cb936f58741cd74d65c43ea9bcbb9a41_1. Avviso di vendita_mer06.11.2024_ore9.pdf
+2024-10-12 21:16:48,521 - __main__ - INFO - File already exists: e441f7d1e980bc7973f6fbcbfc854b18_ordinanza di vendita.pdf
+2024-10-12 21:16:48,521 - __main__ - INFO - File already exists: a23334fea0f331ece469d9eaf41be40c_All.to+B+-+Doc+fotografica_compressed.pdf
+2024-10-12 21:16:48,521 - __main__ - INFO - File already exists: cae391a5dc661d31b43c6b3031ebaf61_Rge 398.2021 Avviso di vendita V Esp.pdf
+2024-10-12 21:16:48,522 - __main__ - INFO - File already exists: f51b8ed79f71e41a28ea3d8de44540fd_Perizia - lotti 54-55-56-58-59-60.pdf
+2024-10-12 21:16:48,522 - __main__ - INFO - File already exists: 0e4605ae1dbb3a9fd5089e0de954e157_2_ AVVISO VENDITA TELEMATICA E.I. 243_2023_signed.pdf
+2024-10-12 21:16:48,522 - __main__ - INFO - File already exists: dda5c0683eda20e888626da8be80a8b6_ordinanza.pdf
+2024-10-12 21:16:48,522 - __main__ - INFO - File already exists: e3d6c23a398d53a5569450ddd2be1edc_Rge 398.2021 Avviso di vendita V Esp.pdf
+2024-10-12 21:16:48,523 - __main__ - INFO - File already exists: a1628d2b3ed1720e9352fb50df67a381_C.D.U. zona F Punta Molara.pdf
+2024-10-12 21:16:48,523 - __main__ - INFO - File already exists: 355d06b01c94c46a1c0e67df0efae2b3_Perizia Lotto 1_EP.pdf
+2024-10-12 21:16:48,523 - __main__ - INFO - File already exists: 32a7f13188f010cd45e19e5c5bb2b4ee_Ordinanza.pdf
+2024-10-12 21:16:48,523 - __main__ - INFO - File already exists: 517bd4663be5dbd96bd2305d384088ce_Ordinanza-VEL-EICA-243-2023-DV20240509-1.pdf
+2024-10-12 21:16:48,524 - __main__ - INFO - File already exists: d02f95207ae574e217e4a77dea75cff7_delega.pdf
+2024-10-12 21:16:48,524 - __main__ - INFO - File already exists: ca8b0b704d5a260a33438c337c395c6a_Ordinanza di vendita 21.02.24.pdf
+2024-10-12 21:16:48,524 - __main__ - INFO - File already exists: 16f5e3f4222b99a4803bd332a2f48918_Allegati perizia senza dati sens.pdf
+2024-10-12 21:16:48,524 - __main__ - INFO - File already exists: 123a3c96fab2656ba4f74b3607be13d5_Avviso di vendita 4 (8).pdf
+2024-10-12 21:16:48,524 - __main__ - INFO - File already exists: a41b7dbc236887bfa5dbdc9b3753ba06_Perizia.pdf
+2024-10-12 21:16:48,525 - __main__ - INFO - File already exists: 1b7cf21004af9314e4c94cd41c9bceeb_2024.03.07 - Modifica ordinanza di delega ex art  591 bis cpc L'Aquila.pdf
+2024-10-12 21:16:48,525 - __main__ - INFO - File already exists: e0b2a949c49bbc88699f79e9507d41a6_Perizia-VEL-EICA-243-2023-C-1.pdf
+2024-10-12 21:16:48,525 - __main__ - INFO - File already exists: e9c5e9090d7d03e2d8880ae5b296d74a_4 avviso di vendita 143-2022.pdf
+2024-10-12 21:16:48,525 - __main__ - INFO - File already exists: 1f6473a013664122aec83fdcd0cdfdf8_Avviso di vendita 27.06.24 dep.pdf
+2024-10-12 21:16:48,525 - __main__ - INFO - File already exists: 6cb441231d318356856d1a99db4e7d97_Estratto sentenza di fallimento.pdf
+2024-10-12 21:16:48,526 - __main__ - INFO - File already exists: 822df7f43c92ab338602548dac29bef8_Avviso di Vendita VI Lotto A-B.pdf
+2024-10-12 21:16:48,526 - __main__ - INFO - File already exists: c719e20bfa91d080d64e142de48773cf_2023.12.12 - Allegato Nomina Professionista Delegato.pdf
+2024-10-12 21:16:48,526 - __main__ - INFO - File already exists: a050fec57cfc821d05c177ee5dcf7186_Avviso di vendita.pdf
+2024-10-12 21:16:48,526 - __main__ - INFO - File already exists: 2d82749b810dc5199585693d4ae6738e_Relazione DEF privacy.pdf
+2024-10-12 21:16:48,526 - __main__ - INFO - File already exists: fde8beba33a67410d94f27204ff3d2b9_Relazione fotografica epurata (1)_Redacted.pdf
+2024-10-12 21:16:48,527 - __main__ - INFO - File already exists: 21c2e4b9dece9b3360ac3a649a5d9c85_Perizia.pdf
+2024-10-12 21:16:48,527 - __main__ - INFO - File already exists: 77d5d26c3f34f332b26130c5cb59311a_Relazione DEF privacy.pdf
+2024-10-12 21:16:48,527 - __main__ - INFO - File already exists: c792847c47824ba20ccc46065285dac5_Ordinanza di vendita del 17.07.2024.pdf
+2024-10-12 21:16:48,527 - __main__ - INFO - File already exists: 731ec833d19c5da77db8fcd0f6eaa11c_Ordinanza vendita.pdf
+2024-10-12 21:16:48,527 - __main__ - INFO - File already exists: 2cec3d35949fc2d36126302f0cfb061f_AVV.pdf
+2024-10-12 21:16:48,528 - __main__ - INFO - File already exists: 698f933e4acaa47061774f1b05b63d7e_Estratto sentenza di fallimento.pdf
+2024-10-12 21:16:48,528 - __main__ - INFO - File already exists: c9f607bd90e8104e39c64144ae119fe3_E.I. 143-2022 - Copia Epurata ctu.pdf
+2024-10-12 21:16:48,528 - __main__ - INFO - File already exists: a5244bee191a88fbf8351e91ee761663_Prospetto riepilogativo LOTTO 1.pdf
+2024-10-12 21:16:48,528 - __main__ - INFO - File already exists: 6aa2c76cdb5eca22a7f928ed535ffc2e_Avviso di vendita.pdf
+2024-10-12 21:16:48,528 - __main__ - INFO - File already exists: b7118385b03189bb2bdab27aaad348aa_Ordinanza di vendita del 27.04.2021.pdf
+2024-10-12 21:16:48,529 - __main__ - INFO - File already exists: 44318405db1b44fc23181eb7ca49082e_Ordinanza di vendita delegata.pdf
+2024-10-12 21:16:48,529 - __main__ - INFO - File already exists: aaed91b06080992332224a50322a4f50_AVVISO DI VENDITA 156-2010 (2).pdf
+2024-10-12 21:16:48,529 - __main__ - INFO - File already exists: 0b9dc198c2cf3b6c61f1efee85775c44_Nuovo Avviso 12.11.2024 Vendita Esecuzioni Lotto n.2  proc. 66-2012 rge-signed.pdf
+2024-10-12 21:16:48,529 - __main__ - INFO - File already exists: f5edcda794419dd885f4a22889974b67_C.D.U. zona F Punta Molara.pdf
+2024-10-12 21:16:48,529 - __main__ - INFO - File already exists: f98c5c8be2565d72de2282221c96eb63_ordinanza di vendita.pdf
+2024-10-12 21:16:48,529 - __main__ - INFO - File already exists: 6240858603ac7353f3db79091d16fd8c_Foto LOTTO 1.pdf
+2024-10-12 21:16:48,530 - __main__ - INFO - File already exists: d937762d9de4e0ce209dc4d7c7fa874b_ORDINANZA.pdf
+2024-10-12 21:16:48,530 - __main__ - INFO - File already exists: e7dcfaa62132a438eb7bb89d293337fe_perizia_versione_privacy.pdf
+2024-10-12 21:16:48,530 - __main__ - INFO - File already exists: 3d9097364adea86354b68978dd1e30a2_PERIZIA 156-2010_compressed (1)_Redacted.pdf
+2024-10-12 21:16:48,530 - __main__ - INFO - File already exists: 5d3c3dd7f48cd641b18e1da491c9dd57_Ordinanza GE del 10.07.2024 Lotto n.2 Proc. 66-2012 rge.pdf
+2024-10-12 21:16:48,530 - __main__ - INFO - File already exists: 487e4c4075eab54d1abe186b43389b2f_Allegati perizia senza dati sens.pdf
+2024-10-12 21:16:48,531 - __main__ - INFO - File already exists: 3a661990b8473c8cf75828699ef0a018_Rge 398.2021 Avviso di vendita V Esp.pdf
+2024-10-12 21:16:48,531 - __main__ - INFO - File already exists: 32c627f55c60bf2a4a9c3c5e0fdd5d32_Avviso di vendita 4 (8).pdf
+2024-10-12 21:16:48,531 - __main__ - INFO - File already exists: cb02c62f1921c80d8b85a467fd1873a5_EDM LOTTO 1.pdf
+2024-10-12 21:16:48,531 - __main__ - INFO - File already exists: 7f918f4227c22d30a271dedba670abec_AVVISO VENDITA II.pdf
+2024-10-12 21:16:48,531 - __main__ - INFO - File already exists: 585b09cd009efda41eba8065de944039_Avviso di vendita.pdf
+2024-10-12 21:16:48,532 - __main__ - INFO - File already exists: 7877a98d096d26084603ad95a113231e_DELEGA 156-2010.pdf
+2024-10-12 21:16:48,532 - __main__ - INFO - File already exists: 02bbb01e23f1d046b42f05b2ae993834_Nomina Custode e Delegato Proc.66-2012 rge .pdf
+2024-10-12 21:16:48,532 - __main__ - INFO - File already exists: 3b190bb924070df90f7b220a0c0fab03_Avviso di vendita.pdf
+2024-10-12 21:16:48,532 - __main__ - INFO - File already exists: 1a02f2e7b881a43010108c3480cb5e99_CTU terreno Lotto 2_EP.pdf
+2024-10-12 21:16:48,533 - __main__ - INFO - File already exists: 5c2eb4879858bcd0a14c92d57b1eb63a_Foto lotto n.2 Proc. 66-2012 rge .pdf
+2024-10-12 21:16:48,822 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/4240183/Documentazione%20Fotografica%20-%20lotti%2054-55-56-58-59-60.pdf?versionId=69f6b24a-10de-49ed-a813-6eeba761aaf3: 404, message='HTTP 404', url='https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/4240183/Documentazione%20Fotografica%20-%20lotti%2054-55-56-58-59-60.pdf?versionId=69f6b24a-10de-49ed-a813-6eeba761aaf3'
+2024-10-12 21:16:49,884 - __main__ - WARNING - Attempt 2 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/4240183/Documentazione%20Fotografica%20-%20lotti%2054-55-56-58-59-60.pdf?versionId=69f6b24a-10de-49ed-a813-6eeba761aaf3: 404, message='HTTP 404', url='https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/4240183/Documentazione%20Fotografica%20-%20lotti%2054-55-56-58-59-60.pdf?versionId=69f6b24a-10de-49ed-a813-6eeba761aaf3'
+2024-10-12 21:16:51,947 - __main__ - WARNING - Attempt 3 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/4240183/Documentazione%20Fotografica%20-%20lotti%2054-55-56-58-59-60.pdf?versionId=69f6b24a-10de-49ed-a813-6eeba761aaf3: 404, message='HTTP 404', url='https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/4240183/Documentazione%20Fotografica%20-%20lotti%2054-55-56-58-59-60.pdf?versionId=69f6b24a-10de-49ed-a813-6eeba761aaf3'
+2024-10-12 21:16:51,947 - __main__ - ERROR - Failed to download https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/4240183/Documentazione%20Fotografica%20-%20lotti%2054-55-56-58-59-60.pdf?versionId=69f6b24a-10de-49ed-a813-6eeba761aaf3 after 3 attempts
+2024-10-12 21:16:51,948 - __main__ - INFO - Completed download of 135 files
+2024-10-12 21:16:51,949 - __main__ - INFO - Download Summary:
+2024-10-12 21:16:51,949 - __main__ - INFO -   Total files: 135
+2024-10-12 21:16:51,949 - __main__ - INFO -   Successful downloads: 134
+2024-10-12 21:16:51,949 - __main__ - INFO -   Failed downloads: 1
+2024-10-12 21:16:51,949 - __main__ - INFO -   Total bytes downloaded: 0 bytes
+2024-10-12 21:16:51,949 - __main__ - INFO -   Total duration: 3.46 seconds
+2024-10-12 21:16:51,949 - __main__ - INFO -   Average download speed: 0.00 MB/s
+2024-10-12 21:16:51,949 - __main__ - INFO - AsyncFileDownloader session ended
+2024-10-12 21:18:08,433 - __main__ - INFO - AsyncFileDownloader session started
+2024-10-12 21:18:08,433 - __main__ - INFO - Starting download of 135 files
+2024-10-12 21:18:08,441 - __main__ - INFO - File already exists: 3871a64e7a04186ca71dc1ddf4c5518e_ORD.pdf
+2024-10-12 21:18:08,442 - __main__ - INFO - File already exists: 5fbf6d007fcae7e2912b17b0ad81dda4_Avviso_di_vendita_ Trib SIRACUSA_Fall 29_2020.pdf
+2024-10-12 21:18:08,442 - __main__ - INFO - File already exists: 92c2f12c570ad885b22c1032be4f4d6d_doc._fotografica_lotto_2.pdf
+2024-10-12 21:18:08,442 - __main__ - INFO - File already exists: e44c1691b5cd0517de1b0a8ea7abac9c_Ordinanza - PVP.pdf
+2024-10-12 21:18:08,442 - __main__ - INFO - File already exists: a35b2bb1fd1702faef838194d2916c4b_Ordinanza G.E. del 22.03.2024 decadenza agg. privacy lotto n.2.pdf
+2024-10-12 21:18:08,443 - __main__ - INFO - File already exists: 7f89f61bb81ac43a9254a5ad4f1fc677_Avviso di Vendita.pdf
+2024-10-12 21:18:08,443 - __main__ - INFO - File already exists: 35265f469fb0dd2c123c8d67138aae25_CTU Privacy_Redatto.pdf
+2024-10-12 21:18:08,443 - __main__ - INFO - File already exists: 1a221f3c0f3202ea66d57b958683997d_AVV.pdf
+2024-10-12 21:18:08,443 - __main__ - INFO - File already exists: 464bbe6b8854fbf490e475638d4d0d0b_Avviso_di_vendita_ Trib SIRACUSA_Fall 29_2020.pdf
+2024-10-12 21:18:08,443 - __main__ - INFO - File already exists: 2715574134e286ac426f2fb71efb8b8d_elenco_subalterni_ed_elaborato_planimetrico.pdf
+2024-10-12 21:18:08,444 - __main__ - INFO - File already exists: 0ba46672a21274730f7dd368dbf73837_Perizia - PVP.pdf
+2024-10-12 21:18:08,444 - __main__ - INFO - File already exists: aee5c23d5c776e98c5256bf67f746162_Perizia Proc. 66-2012 Rge_Redacted.pdf
+2024-10-12 21:18:08,444 - __main__ - INFO - File already exists: ddeefe21b64cbbe082ffcd3007cd1343_Perizia_EP.pdf
+2024-10-12 21:18:08,444 - __main__ - INFO - File already exists: d3a805dd1aff04923f815abd84f58f0b_Ordinanza di vendita.pdf
+2024-10-12 21:18:08,444 - __main__ - INFO - File already exists: 73f70cc9047ab3820d4343fe7267273b_Avviso di vendita.pdf
+2024-10-12 21:18:08,444 - __main__ - INFO - File already exists: df100d1b98b939de444cf7cdd1e23890_PERIZIA_PRIVACY.pdf
+2024-10-12 21:18:08,445 - __main__ - INFO - File already exists: 37faf00991b7b39548b4c835cd9cb04c_nomina delegato per pubblicità 458-23.pdf
+2024-10-12 21:18:08,445 - __main__ - INFO - File already exists: 4576fe45480abdc627f87bda921b3815_Lotto 1 foto + planimetria.pdf
+2024-10-12 21:18:08,445 - __main__ - INFO - File already exists: 8abc7fd4607936cea3298ce945a5c021_ordinanza di vendita.pdf
+2024-10-12 21:18:08,445 - __main__ - INFO - File already exists: 5ef2e4bbfef54fad29275741e11dde8d_Avviso di vendita 6.pdf
+2024-10-12 21:18:08,445 - __main__ - INFO - File already exists: 7d2461505e489a29aa3ef0e315f3e428_Avviso di vendita 268 - 2023 - I - 07.01.2025.pdf
+2024-10-12 21:18:08,445 - __main__ - INFO - File already exists: ba7e113c92047c4ea8ffa6791ee9c046_Delega anonima_Redatto.pdf
+2024-10-12 21:18:08,446 - __main__ - INFO - File already exists: 40f5178f5dda8ccbf4e3d8a582547959_INTEGRAZIONE PERIZIA_PRIVACY.pdf
+2024-10-12 21:18:08,446 - __main__ - INFO - File already exists: 7c517c6e60fc93c705b1e102c439a974_RGE 458-2023 - Perizia PER PUBBLICITA'.pdf
+2024-10-12 21:18:08,446 - __main__ - INFO - File already exists: f993ea537c86b55f29515ffd183d76e5_Ordinanza di delega.pdf
+2024-10-12 21:18:08,446 - __main__ - INFO - File already exists: 29eb8b59a37b3fbe1af54cf5c2ed96fb_Rge 398.2021 Avviso di vendita V Esp.pdf
+2024-10-12 21:18:08,446 - __main__ - INFO - File already exists: 27028c51523425aba4911b6ed2c22e58_DELEGA 06.03.2024.pdf
+2024-10-12 21:18:08,446 - __main__ - INFO - File already exists: 99df3f1c916c7571960965392b0aca0a_Foto.pdf
+2024-10-12 21:18:08,447 - __main__ - INFO - File already exists: 2f96dd3b3ff15e144d88512574cd6b3f_Perizia_Privacy.pdf
+2024-10-12 21:18:08,447 - __main__ - INFO - File already exists: 9f5c8d71ded7c2053630603d62202f2d_Delega avv. Rosso Roberta.pdf
+2024-10-12 21:18:08,447 - __main__ - INFO - File already exists: c9ce16cdf70f4d8c981f7172e82bb26b_avviso di vendita telematica  RGE 458-2023 del 16.07.2024.pdf
+2024-10-12 21:18:08,447 - __main__ - INFO - File already exists: de9d17d7c6d06c15a7201262259e6326_FALLCO SITO PUBBLICAZIONE - Avviso di vendita.pdf
+2024-10-12 21:18:08,447 - __main__ - INFO - File already exists: 7704874437b2ca5e7bc6a7d5c055e3da_Autorizzazione GE omississ.pdf
+2024-10-12 21:18:08,447 - __main__ - INFO - File already exists: 94b050ca89bee3fd1f662a9ba41ade14_Avviso di vendita.pdf
+2024-10-12 21:18:08,447 - __main__ - INFO - File already exists: 5df8b3c423e754e2a54ccaaec4653403_Relazione di stima_PRIVACY Proc. N.209-2021 R.G.E..pdf
+2024-10-12 21:18:08,448 - __main__ - INFO - File already exists: a53364e4c3eb628ec10abb206865d493_foto.pdf
+2024-10-12 21:18:08,448 - __main__ - INFO - File already exists: c6b1d98377de93b4eb7c9533e62f33f4_Avviso vendita privacy.pdf
+2024-10-12 21:18:08,448 - __main__ - INFO - File already exists: b826a21a6ed16d8501df73bc0ad2de8c_ORDINANZA DI VENDITA.pdf
+2024-10-12 21:18:08,448 - __main__ - INFO - File already exists: c9c1ace24c79cc45a08dae157ae97942_avviso vendita telematica firmato pb.pdf
+2024-10-12 21:18:08,448 - __main__ - INFO - File already exists: e7b71cf8acd10b5e7fcee1be96023db1_Perizia.pdf
+2024-10-12 21:18:08,448 - __main__ - INFO - File already exists: 611736628c70689ba918448ebb7a6cf6_Bando di vendita del 11.10.2024.pdf
+2024-10-12 21:18:08,449 - __main__ - INFO - File already exists: 31398c58a7218d6e19e3518d4374181a_ordinanza di vendita.pdf
+2024-10-12 21:18:08,449 - __main__ - INFO - File already exists: 8fafacbd31e5ce4e6e02eb5d31243b10_delega 209-2021.pdf
+2024-10-12 21:18:08,449 - __main__ - INFO - File already exists: 06520addad5d9111befa787c3e321c0a_planimetria catastale.pdf
+2024-10-12 21:18:08,449 - __main__ - INFO - File already exists: e79ba195ceedcb77b882e344d26f77da_AVVISO~PROC 91 2010.pdf
+2024-10-12 21:18:08,449 - __main__ - INFO - File already exists: 6292fc1254ecb37ed6536a8ad4eda890_18-2023 AVVISO DI VENDITA - II ESPERIMENTO.pdf
+2024-10-12 21:18:08,450 - __main__ - INFO - File already exists: 1d5c3b014c93ed83e499bfe5ebb25dc1_2 avviso - 228.17.pdf
+2024-10-12 21:18:08,450 - __main__ - INFO - File already exists: 934e799de2cb9d94ce19db8d7f34f41b_Perizia omississ.pdf
+2024-10-12 21:18:08,450 - __main__ - INFO - File already exists: db2ed749d744899cb71ce4429c38557d_PERIZIA_Redatto.pdf
+2024-10-12 21:18:08,450 - __main__ - INFO - File already exists: c9adb1545ecc856273dfdd63ac5ddc7c_avviso vendita per il 27.11.2024.pdf
+2024-10-12 21:18:08,450 - __main__ - INFO - File already exists: 195d1501bc62a9ba3352eeb552ca8abb_avviso vendita_24-10-2024.pdf
+2024-10-12 21:18:08,450 - __main__ - INFO - File already exists: c8c59ce6a7de44b518cdc3da68abff01_ordinanza nov 2023 proc 91 2010.pdf
+2024-10-12 21:18:08,450 - __main__ - INFO - File already exists: 774a5c5f3e9b4d668380a2c51e144a50_Perizia_Privacy_Lotto Unico.pdf
+2024-10-12 21:18:08,451 - __main__ - INFO - File already exists: 0bd97f0f7052a03e2d14827b215c69a9_ordinanza di delega (2).pdf
+2024-10-12 21:18:08,451 - __main__ - INFO - File already exists: b3e3ca0fea9bf8e29a7fbfd5e2a20fdd_I avviso-di-vendita-telematica.pdf
+2024-10-12 21:18:08,451 - __main__ - INFO - File already exists: bda878654774aaa4ef14373a4abbd207_PLANIMETRIE.pdf
+2024-10-12 21:18:08,451 - __main__ - INFO - File already exists: e84c0d22f577c50d8ce1d21762fd39b0_foto sub. 11.pdf
+2024-10-12 21:18:08,451 - __main__ - INFO - File already exists: b7a91055b36e2672cc85ffb35a9db172_13778112s_nuove_modalità.pdf
+2024-10-12 21:18:08,451 - __main__ - INFO - File already exists: 4143a971a220bce562db53e6692af4b6_Extracted pages from perizia ok_compressed_Redatto1.pdf
+2024-10-12 21:18:08,452 - __main__ - INFO - File already exists: b63776a22132205a20f7c4051dfc65ca_Fotografie LOTTO UNICO_Redacted.pdf
+2024-10-12 21:18:08,452 - __main__ - INFO - File already exists: 1d203b904bae624af26230bae2130ec6_perizia_privacy.pdf
+2024-10-12 21:18:08,452 - __main__ - INFO - File already exists: 790324121bfe62095f091145f46b8b39_ordinanza di vendita.pdf
+2024-10-12 21:18:08,452 - __main__ - INFO - File already exists: d533ca8447c9b9a745886d8b0c3d33b9_foto.pdf
+2024-10-12 21:18:08,454 - __main__ - INFO - File already exists: 34f1124cee1ed611fd918f5a4abc1745_RISPOSTA DEL 17.06.2022 A SEG. DI PROVV. DEL 07.10.2022 (1)[1]_Redatto.pdf
+2024-10-12 21:18:08,454 - __main__ - INFO - File already exists: f11fce33c70fee61fcfa219604f1fb29_Planimetrie LOTTO UNICO.pdf
+2024-10-12 21:18:08,454 - __main__ - INFO - File already exists: 44318405db1b44fc23181eb7ca49082e_Ordinanza di vendita delegata.pdf
+2024-10-12 21:18:08,455 - __main__ - INFO - File already exists: eb587f49795cb61def3dabc80ddd100c___Docserver3_Documenti_Aste_Livorno_Ricorso per omologazione piano di ristrutturazione_2024_LI-PU11-1-2024_bck_NOF_NOF-Avviso-LI-PU11-1-2024-DV20241001-59.pdf
+2024-10-12 21:18:08,455 - __main__ - INFO - File already exists: 0bd0a1f5ba14280c96e017baab09d488_2-All.to+A+-+Relazione+di+stima+262-2022+ANONIMA (1).pdf
+2024-10-12 21:18:08,455 - __main__ - INFO - File already exists: b2d91af2bb30eb9c6fc1b0e644bc8000_2 avviso_vendita_ES IMM 287_2023.pdf
+2024-10-12 21:18:08,455 - __main__ - INFO - File already exists: 45e8e9476f48bd88183cc8561082bad2_CATASTO E PLANIMETRIE.pdf
+2024-10-12 21:18:08,455 - __main__ - INFO - File already exists: e830eb61ce097fa192590fe26c30299f_Estratti di mappa - lotti 54-55-56-58-59-60.pdf
+2024-10-12 21:18:08,456 - __main__ - INFO - File already exists: ef2838e62aae364af9713b61b6cf627f_foto.pdf
+2024-10-12 21:18:08,456 - __main__ - INFO - File already exists: 32c627f55c60bf2a4a9c3c5e0fdd5d32_Avviso di vendita 4 (8).pdf
+2024-10-12 21:18:08,456 - __main__ - INFO - File already exists: a3c8cceca8713fc7d7676e348697bd59_AVVISO DI VENDITA TELEMATICA SPIL_01-10-24.pdf
+2024-10-12 21:18:08,456 - __main__ - INFO - File already exists: 4c2ed337fb9bb55a54ef6542e575000e_All.to+C+-+Planimetrie.pdf
+2024-10-12 21:18:08,456 - __main__ - INFO - File already exists: 3e297a92f25a0f6fc5716ce71cfe6caa_ordinanza di vendita.pdf
+2024-10-12 21:18:08,457 - __main__ - INFO - File already exists: 6fda7b5c92b8ef8d92bbb13fd5e43fd0_Avviso di vendita.pdf
+2024-10-12 21:18:08,457 - __main__ - INFO - File already exists: 4202bb93f223fe4d9a330bd86cdb433a_perizia ok_compressed_Redatto1.pdf
+2024-10-12 21:18:08,457 - __main__ - INFO - File already exists: cb936f58741cd74d65c43ea9bcbb9a41_1. Avviso di vendita_mer06.11.2024_ore9.pdf
+2024-10-12 21:18:08,457 - __main__ - INFO - File already exists: e441f7d1e980bc7973f6fbcbfc854b18_ordinanza di vendita.pdf
+2024-10-12 21:18:08,458 - __main__ - INFO - File already exists: a23334fea0f331ece469d9eaf41be40c_All.to+B+-+Doc+fotografica_compressed.pdf
+2024-10-12 21:18:08,458 - __main__ - INFO - File already exists: cae391a5dc661d31b43c6b3031ebaf61_Rge 398.2021 Avviso di vendita V Esp.pdf
+2024-10-12 21:18:08,458 - __main__ - INFO - File already exists: f51b8ed79f71e41a28ea3d8de44540fd_Perizia - lotti 54-55-56-58-59-60.pdf
+2024-10-12 21:18:08,458 - __main__ - INFO - File already exists: 0e4605ae1dbb3a9fd5089e0de954e157_2_ AVVISO VENDITA TELEMATICA E.I. 243_2023_signed.pdf
+2024-10-12 21:18:08,458 - __main__ - INFO - File already exists: dda5c0683eda20e888626da8be80a8b6_ordinanza.pdf
+2024-10-12 21:18:08,459 - __main__ - INFO - File already exists: e3d6c23a398d53a5569450ddd2be1edc_Rge 398.2021 Avviso di vendita V Esp.pdf
+2024-10-12 21:18:08,459 - __main__ - INFO - File already exists: a1628d2b3ed1720e9352fb50df67a381_C.D.U. zona F Punta Molara.pdf
+2024-10-12 21:18:08,459 - __main__ - INFO - File already exists: 355d06b01c94c46a1c0e67df0efae2b3_Perizia Lotto 1_EP.pdf
+2024-10-12 21:18:08,460 - __main__ - INFO - File already exists: 32a7f13188f010cd45e19e5c5bb2b4ee_Ordinanza.pdf
+2024-10-12 21:18:08,460 - __main__ - INFO - File already exists: 517bd4663be5dbd96bd2305d384088ce_Ordinanza-VEL-EICA-243-2023-DV20240509-1.pdf
+2024-10-12 21:18:08,460 - __main__ - INFO - File already exists: d02f95207ae574e217e4a77dea75cff7_delega.pdf
+2024-10-12 21:18:08,460 - __main__ - INFO - File already exists: ca8b0b704d5a260a33438c337c395c6a_Ordinanza di vendita 21.02.24.pdf
+2024-10-12 21:18:08,460 - __main__ - INFO - File already exists: 16f5e3f4222b99a4803bd332a2f48918_Allegati perizia senza dati sens.pdf
+2024-10-12 21:18:08,461 - __main__ - INFO - File already exists: 123a3c96fab2656ba4f74b3607be13d5_Avviso di vendita 4 (8).pdf
+2024-10-12 21:18:08,461 - __main__ - INFO - File already exists: a41b7dbc236887bfa5dbdc9b3753ba06_Perizia.pdf
+2024-10-12 21:18:08,461 - __main__ - INFO - File already exists: 1b7cf21004af9314e4c94cd41c9bceeb_2024.03.07 - Modifica ordinanza di delega ex art  591 bis cpc L'Aquila.pdf
+2024-10-12 21:18:08,461 - __main__ - INFO - File already exists: e0b2a949c49bbc88699f79e9507d41a6_Perizia-VEL-EICA-243-2023-C-1.pdf
+2024-10-12 21:18:08,461 - __main__ - INFO - File already exists: e9c5e9090d7d03e2d8880ae5b296d74a_4 avviso di vendita 143-2022.pdf
+2024-10-12 21:18:08,461 - __main__ - INFO - File already exists: 1f6473a013664122aec83fdcd0cdfdf8_Avviso di vendita 27.06.24 dep.pdf
+2024-10-12 21:18:08,462 - __main__ - INFO - File already exists: 6cb441231d318356856d1a99db4e7d97_Estratto sentenza di fallimento.pdf
+2024-10-12 21:18:08,462 - __main__ - INFO - File already exists: 822df7f43c92ab338602548dac29bef8_Avviso di Vendita VI Lotto A-B.pdf
+2024-10-12 21:18:08,462 - __main__ - INFO - File already exists: c719e20bfa91d080d64e142de48773cf_2023.12.12 - Allegato Nomina Professionista Delegato.pdf
+2024-10-12 21:18:08,462 - __main__ - INFO - File already exists: a050fec57cfc821d05c177ee5dcf7186_Avviso di vendita.pdf
+2024-10-12 21:18:08,462 - __main__ - INFO - File already exists: 2d82749b810dc5199585693d4ae6738e_Relazione DEF privacy.pdf
+2024-10-12 21:18:08,463 - __main__ - INFO - File already exists: fde8beba33a67410d94f27204ff3d2b9_Relazione fotografica epurata (1)_Redacted.pdf
+2024-10-12 21:18:08,463 - __main__ - INFO - File already exists: 21c2e4b9dece9b3360ac3a649a5d9c85_Perizia.pdf
+2024-10-12 21:18:08,463 - __main__ - INFO - File already exists: 77d5d26c3f34f332b26130c5cb59311a_Relazione DEF privacy.pdf
+2024-10-12 21:18:08,463 - __main__ - INFO - File already exists: c792847c47824ba20ccc46065285dac5_Ordinanza di vendita del 17.07.2024.pdf
+2024-10-12 21:18:08,463 - __main__ - INFO - File already exists: 731ec833d19c5da77db8fcd0f6eaa11c_Ordinanza vendita.pdf
+2024-10-12 21:18:08,463 - __main__ - INFO - File already exists: 2cec3d35949fc2d36126302f0cfb061f_AVV.pdf
+2024-10-12 21:18:08,464 - __main__ - INFO - File already exists: 698f933e4acaa47061774f1b05b63d7e_Estratto sentenza di fallimento.pdf
+2024-10-12 21:18:08,464 - __main__ - INFO - File already exists: c9f607bd90e8104e39c64144ae119fe3_E.I. 143-2022 - Copia Epurata ctu.pdf
+2024-10-12 21:18:08,464 - __main__ - INFO - File already exists: a5244bee191a88fbf8351e91ee761663_Prospetto riepilogativo LOTTO 1.pdf
+2024-10-12 21:18:08,464 - __main__ - INFO - File already exists: 6aa2c76cdb5eca22a7f928ed535ffc2e_Avviso di vendita.pdf
+2024-10-12 21:18:08,464 - __main__ - INFO - File already exists: b7118385b03189bb2bdab27aaad348aa_Ordinanza di vendita del 27.04.2021.pdf
+2024-10-12 21:18:08,465 - __main__ - INFO - File already exists: aaed91b06080992332224a50322a4f50_AVVISO DI VENDITA 156-2010 (2).pdf
+2024-10-12 21:18:08,465 - __main__ - INFO - File already exists: 0b9dc198c2cf3b6c61f1efee85775c44_Nuovo Avviso 12.11.2024 Vendita Esecuzioni Lotto n.2  proc. 66-2012 rge-signed.pdf
+2024-10-12 21:18:08,465 - __main__ - INFO - File already exists: f5edcda794419dd885f4a22889974b67_C.D.U. zona F Punta Molara.pdf
+2024-10-12 21:18:08,465 - __main__ - INFO - File already exists: f98c5c8be2565d72de2282221c96eb63_ordinanza di vendita.pdf
+2024-10-12 21:18:08,465 - __main__ - INFO - File already exists: 6240858603ac7353f3db79091d16fd8c_Foto LOTTO 1.pdf
+2024-10-12 21:18:08,466 - __main__ - INFO - File already exists: d937762d9de4e0ce209dc4d7c7fa874b_ORDINANZA.pdf
+2024-10-12 21:18:08,466 - __main__ - INFO - File already exists: e7dcfaa62132a438eb7bb89d293337fe_perizia_versione_privacy.pdf
+2024-10-12 21:18:08,466 - __main__ - INFO - File already exists: 3d9097364adea86354b68978dd1e30a2_PERIZIA 156-2010_compressed (1)_Redacted.pdf
+2024-10-12 21:18:08,466 - __main__ - INFO - File already exists: 5d3c3dd7f48cd641b18e1da491c9dd57_Ordinanza GE del 10.07.2024 Lotto n.2 Proc. 66-2012 rge.pdf
+2024-10-12 21:18:08,466 - __main__ - INFO - File already exists: 487e4c4075eab54d1abe186b43389b2f_Allegati perizia senza dati sens.pdf
+2024-10-12 21:18:08,467 - __main__ - INFO - File already exists: 3a661990b8473c8cf75828699ef0a018_Rge 398.2021 Avviso di vendita V Esp.pdf
+2024-10-12 21:18:08,467 - __main__ - INFO - File already exists: cb02c62f1921c80d8b85a467fd1873a5_EDM LOTTO 1.pdf
+2024-10-12 21:18:08,467 - __main__ - INFO - File already exists: 7f918f4227c22d30a271dedba670abec_AVVISO VENDITA II.pdf
+2024-10-12 21:18:08,467 - __main__ - INFO - File already exists: 585b09cd009efda41eba8065de944039_Avviso di vendita.pdf
+2024-10-12 21:18:08,468 - __main__ - INFO - File already exists: 7877a98d096d26084603ad95a113231e_DELEGA 156-2010.pdf
+2024-10-12 21:18:08,468 - __main__ - INFO - File already exists: 02bbb01e23f1d046b42f05b2ae993834_Nomina Custode e Delegato Proc.66-2012 rge .pdf
+2024-10-12 21:18:08,468 - __main__ - INFO - File already exists: 3b190bb924070df90f7b220a0c0fab03_Avviso di vendita.pdf
+2024-10-12 21:18:08,468 - __main__ - INFO - File already exists: 1a02f2e7b881a43010108c3480cb5e99_CTU terreno Lotto 2_EP.pdf
+2024-10-12 21:18:08,468 - __main__ - INFO - File already exists: 5c2eb4879858bcd0a14c92d57b1eb63a_Foto lotto n.2 Proc. 66-2012 rge .pdf
+2024-10-12 21:18:08,702 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/4240183/Documentazione%20Fotografica%20-%20lotti%2054-55-56-58-59-60.pdf?versionId=69f6b24a-10de-49ed-a813-6eeba761aaf3: 404, message='HTTP 404', url='https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/4240183/Documentazione%20Fotografica%20-%20lotti%2054-55-56-58-59-60.pdf?versionId=69f6b24a-10de-49ed-a813-6eeba761aaf3'
+2024-10-12 21:18:09,758 - __main__ - WARNING - Attempt 2 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/4240183/Documentazione%20Fotografica%20-%20lotti%2054-55-56-58-59-60.pdf?versionId=69f6b24a-10de-49ed-a813-6eeba761aaf3: 404, message='HTTP 404', url='https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/4240183/Documentazione%20Fotografica%20-%20lotti%2054-55-56-58-59-60.pdf?versionId=69f6b24a-10de-49ed-a813-6eeba761aaf3'
+2024-10-12 21:18:11,811 - __main__ - WARNING - Attempt 3 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/4240183/Documentazione%20Fotografica%20-%20lotti%2054-55-56-58-59-60.pdf?versionId=69f6b24a-10de-49ed-a813-6eeba761aaf3: 404, message='HTTP 404', url='https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/4240183/Documentazione%20Fotografica%20-%20lotti%2054-55-56-58-59-60.pdf?versionId=69f6b24a-10de-49ed-a813-6eeba761aaf3'
+2024-10-12 21:18:11,812 - __main__ - ERROR - Failed to download https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/4240183/Documentazione%20Fotografica%20-%20lotti%2054-55-56-58-59-60.pdf?versionId=69f6b24a-10de-49ed-a813-6eeba761aaf3 after 3 attempts
+2024-10-12 21:18:11,814 - __main__ - INFO - Completed download of 135 files
+2024-10-12 21:18:11,815 - __main__ - INFO - Download Summary:
+2024-10-12 21:18:11,816 - __main__ - INFO -   Total files: 135
+2024-10-12 21:18:11,816 - __main__ - INFO -   Successful downloads: 134
+2024-10-12 21:18:11,816 - __main__ - INFO -   Failed downloads: 1
+2024-10-12 21:18:11,816 - __main__ - INFO -   Total bytes downloaded: 0 bytes
+2024-10-12 21:18:11,816 - __main__ - INFO -   Total duration: 3.38 seconds
+2024-10-12 21:18:11,816 - __main__ - INFO -   Average download speed: 0.00 MB/s
+2024-10-12 21:18:11,817 - __main__ - INFO - AsyncFileDownloader session ended
+2024-10-12 21:19:52,402 - __main__ - INFO - AsyncFileDownloader session started
+2024-10-12 21:19:52,402 - __main__ - INFO - Starting download of 509402 files
+2024-10-12 21:20:17,393 - __main__ - INFO - File already exists: 3871a64e7a04186ca71dc1ddf4c5518e_ORD.pdf
+2024-10-12 21:20:17,395 - __main__ - INFO - File already exists: 1a221f3c0f3202ea66d57b958683997d_AVV.pdf
+2024-10-12 21:20:17,397 - __main__ - INFO - File already exists: 73f70cc9047ab3820d4343fe7267273b_Avviso di vendita.pdf
+2024-10-12 21:20:17,398 - __main__ - INFO - File already exists: ba7e113c92047c4ea8ffa6791ee9c046_Delega anonima_Redatto.pdf
+2024-10-12 21:20:17,400 - __main__ - INFO - File already exists: 2f96dd3b3ff15e144d88512574cd6b3f_Perizia_Privacy.pdf
+2024-10-12 21:20:17,402 - __main__ - INFO - File already exists: a53364e4c3eb628ec10abb206865d493_foto.pdf
+2024-10-12 21:20:17,404 - __main__ - INFO - File already exists: 06520addad5d9111befa787c3e321c0a_planimetria catastale.pdf
+2024-10-12 21:20:17,406 - __main__ - INFO - File already exists: 195d1501bc62a9ba3352eeb552ca8abb_avviso vendita_24-10-2024.pdf
+2024-10-12 21:20:17,408 - __main__ - INFO - File already exists: b7a91055b36e2672cc85ffb35a9db172_13778112s_nuove_modalità.pdf
+2024-10-12 21:20:17,411 - __main__ - INFO - File already exists: e830eb61ce097fa192590fe26c30299f_Estratti di mappa - lotti 54-55-56-58-59-60.pdf
+2024-10-12 21:20:17,413 - __main__ - INFO - File already exists: 6fda7b5c92b8ef8d92bbb13fd5e43fd0_Avviso di vendita.pdf
+2024-10-12 21:20:17,414 - __main__ - INFO - File already exists: f51b8ed79f71e41a28ea3d8de44540fd_Perizia - lotti 54-55-56-58-59-60.pdf
+2024-10-12 21:20:17,415 - __main__ - INFO - File already exists: 32a7f13188f010cd45e19e5c5bb2b4ee_Ordinanza.pdf
+2024-10-12 21:20:17,417 - __main__ - INFO - File already exists: 1b7cf21004af9314e4c94cd41c9bceeb_2024.03.07 - Modifica ordinanza di delega ex art  591 bis cpc L'Aquila.pdf
+2024-10-12 21:20:17,418 - __main__ - INFO - File already exists: c719e20bfa91d080d64e142de48773cf_2023.12.12 - Allegato Nomina Professionista Delegato.pdf
+2024-10-12 21:20:17,419 - __main__ - INFO - File already exists: 2cec3d35949fc2d36126302f0cfb061f_AVV.pdf
+2024-10-12 21:20:17,421 - __main__ - INFO - File already exists: 0b9dc198c2cf3b6c61f1efee85775c44_Nuovo Avviso 12.11.2024 Vendita Esecuzioni Lotto n.2  proc. 66-2012 rge-signed.pdf
+2024-10-12 21:20:17,423 - __main__ - INFO - File already exists: 5d3c3dd7f48cd641b18e1da491c9dd57_Ordinanza GE del 10.07.2024 Lotto n.2 Proc. 66-2012 rge.pdf
+2024-10-12 21:20:17,425 - __main__ - INFO - File already exists: 02bbb01e23f1d046b42f05b2ae993834_Nomina Custode e Delegato Proc.66-2012 rge .pdf
+2024-10-12 21:20:17,427 - __main__ - INFO - File already exists: 5c2eb4879858bcd0a14c92d57b1eb63a_Foto lotto n.2 Proc. 66-2012 rge .pdf
+2024-10-12 21:20:17,429 - __main__ - INFO - File already exists: a35b2bb1fd1702faef838194d2916c4b_Ordinanza G.E. del 22.03.2024 decadenza agg. privacy lotto n.2.pdf
+2024-10-12 21:20:17,430 - __main__ - INFO - File already exists: aee5c23d5c776e98c5256bf67f746162_Perizia Proc. 66-2012 Rge_Redacted.pdf
+2024-10-12 21:20:17,432 - __main__ - INFO - File already exists: 8abc7fd4607936cea3298ce945a5c021_ordinanza di vendita.pdf
+2024-10-12 21:20:17,433 - __main__ - INFO - File already exists: 29eb8b59a37b3fbe1af54cf5c2ed96fb_Rge 398.2021 Avviso di vendita V Esp.pdf
+2024-10-12 21:20:17,434 - __main__ - INFO - File already exists: 7704874437b2ca5e7bc6a7d5c055e3da_Autorizzazione GE omississ.pdf
+2024-10-12 21:20:17,436 - __main__ - INFO - File already exists: 611736628c70689ba918448ebb7a6cf6_Bando di vendita del 11.10.2024.pdf
+2024-10-12 21:20:17,438 - __main__ - INFO - File already exists: 934e799de2cb9d94ce19db8d7f34f41b_Perizia omississ.pdf
+2024-10-12 21:20:17,440 - __main__ - INFO - File already exists: b3e3ca0fea9bf8e29a7fbfd5e2a20fdd_I avviso-di-vendita-telematica.pdf
+2024-10-12 21:20:17,442 - __main__ - INFO - File already exists: 790324121bfe62095f091145f46b8b39_ordinanza di vendita.pdf
+2024-10-12 21:20:17,446 - __main__ - INFO - File already exists: 0bd0a1f5ba14280c96e017baab09d488_2-All.to+A+-+Relazione+di+stima+262-2022+ANONIMA (1).pdf
+2024-10-12 21:20:17,449 - __main__ - INFO - File already exists: 4c2ed337fb9bb55a54ef6542e575000e_All.to+C+-+Planimetrie.pdf
+2024-10-12 21:20:17,451 - __main__ - INFO - File already exists: a23334fea0f331ece469d9eaf41be40c_All.to+B+-+Doc+fotografica_compressed.pdf
+2024-10-12 21:20:17,453 - __main__ - INFO - File already exists: a1628d2b3ed1720e9352fb50df67a381_C.D.U. zona F Punta Molara.pdf
+2024-10-12 21:20:17,456 - __main__ - INFO - File already exists: 16f5e3f4222b99a4803bd332a2f48918_Allegati perizia senza dati sens.pdf
+2024-10-12 21:20:17,457 - __main__ - INFO - File already exists: 6cb441231d318356856d1a99db4e7d97_Estratto sentenza di fallimento.pdf
+2024-10-12 21:20:17,461 - __main__ - INFO - File already exists: 77d5d26c3f34f332b26130c5cb59311a_Relazione DEF privacy.pdf
+2024-10-12 21:20:17,463 - __main__ - INFO - File already exists: 6aa2c76cdb5eca22a7f928ed535ffc2e_Avviso di vendita.pdf
+2024-10-12 21:20:17,465 - __main__ - INFO - File already exists: d937762d9de4e0ce209dc4d7c7fa874b_ORDINANZA.pdf
+2024-10-12 21:20:17,466 - __main__ - INFO - File already exists: 7f918f4227c22d30a271dedba670abec_AVVISO VENDITA II.pdf
+2024-10-12 21:20:17,468 - __main__ - INFO - File already exists: 5fbf6d007fcae7e2912b17b0ad81dda4_Avviso_di_vendita_ Trib SIRACUSA_Fall 29_2020.pdf
+2024-10-12 21:20:17,470 - __main__ - INFO - File already exists: 464bbe6b8854fbf490e475638d4d0d0b_Avviso_di_vendita_ Trib SIRACUSA_Fall 29_2020.pdf
+2024-10-12 21:20:17,472 - __main__ - INFO - File already exists: df100d1b98b939de444cf7cdd1e23890_PERIZIA_PRIVACY.pdf
+2024-10-12 21:20:17,474 - __main__ - INFO - File already exists: 40f5178f5dda8ccbf4e3d8a582547959_INTEGRAZIONE PERIZIA_PRIVACY.pdf
+2024-10-12 21:20:17,475 - __main__ - INFO - File already exists: 9f5c8d71ded7c2053630603d62202f2d_Delega avv. Rosso Roberta.pdf
+2024-10-12 21:20:17,477 - __main__ - INFO - File already exists: c6b1d98377de93b4eb7c9533e62f33f4_Avviso vendita privacy.pdf
+2024-10-12 21:20:17,479 - __main__ - INFO - File already exists: e79ba195ceedcb77b882e344d26f77da_AVVISO~PROC 91 2010.pdf
+2024-10-12 21:20:17,481 - __main__ - INFO - File already exists: c8c59ce6a7de44b518cdc3da68abff01_ordinanza nov 2023 proc 91 2010.pdf
+2024-10-12 21:20:17,482 - __main__ - INFO - File already exists: 4143a971a220bce562db53e6692af4b6_Extracted pages from perizia ok_compressed_Redatto1.pdf
+2024-10-12 21:20:17,483 - __main__ - INFO - File already exists: 34f1124cee1ed611fd918f5a4abc1745_RISPOSTA DEL 17.06.2022 A SEG. DI PROVV. DEL 07.10.2022 (1)[1]_Redatto.pdf
+2024-10-12 21:20:17,485 - __main__ - INFO - File already exists: 45e8e9476f48bd88183cc8561082bad2_CATASTO E PLANIMETRIE.pdf
+2024-10-12 21:20:17,489 - __main__ - INFO - File already exists: 4202bb93f223fe4d9a330bd86cdb433a_perizia ok_compressed_Redatto1.pdf
+2024-10-12 21:20:17,490 - __main__ - INFO - File already exists: 0e4605ae1dbb3a9fd5089e0de954e157_2_ AVVISO VENDITA TELEMATICA E.I. 243_2023_signed.pdf
+2024-10-12 21:20:17,492 - __main__ - INFO - File already exists: 517bd4663be5dbd96bd2305d384088ce_Ordinanza-VEL-EICA-243-2023-DV20240509-1.pdf
+2024-10-12 21:20:17,494 - __main__ - INFO - File already exists: e0b2a949c49bbc88699f79e9507d41a6_Perizia-VEL-EICA-243-2023-C-1.pdf
+2024-10-12 21:20:17,496 - __main__ - INFO - File already exists: 2d82749b810dc5199585693d4ae6738e_Relazione DEF privacy.pdf
+2024-10-12 21:20:17,497 - __main__ - INFO - File already exists: 698f933e4acaa47061774f1b05b63d7e_Estratto sentenza di fallimento.pdf
+2024-10-12 21:20:17,499 - __main__ - INFO - File already exists: f5edcda794419dd885f4a22889974b67_C.D.U. zona F Punta Molara.pdf
+2024-10-12 21:20:17,501 - __main__ - INFO - File already exists: 487e4c4075eab54d1abe186b43389b2f_Allegati perizia senza dati sens.pdf
+2024-10-12 21:20:17,504 - __main__ - INFO - File already exists: 3b190bb924070df90f7b220a0c0fab03_Avviso di vendita.pdf
+2024-10-12 21:20:17,506 - __main__ - INFO - File already exists: 44318405db1b44fc23181eb7ca49082e_Ordinanza di vendita delegata.pdf
+2024-10-12 21:20:17,509 - __main__ - INFO - File already exists: 7f89f61bb81ac43a9254a5ad4f1fc677_Avviso di Vendita.pdf
+2024-10-12 21:20:17,511 - __main__ - INFO - File already exists: ddeefe21b64cbbe082ffcd3007cd1343_Perizia_EP.pdf
+2024-10-12 21:20:17,513 - __main__ - INFO - File already exists: 5ef2e4bbfef54fad29275741e11dde8d_Avviso di vendita 6.pdf
+2024-10-12 21:20:17,516 - __main__ - INFO - File already exists: 27028c51523425aba4911b6ed2c22e58_DELEGA 06.03.2024.pdf
+2024-10-12 21:20:17,518 - __main__ - INFO - File already exists: 94b050ca89bee3fd1f662a9ba41ade14_Avviso di vendita.pdf
+2024-10-12 21:20:17,520 - __main__ - INFO - File already exists: 31398c58a7218d6e19e3518d4374181a_ordinanza di vendita.pdf
+2024-10-12 21:20:17,524 - __main__ - INFO - File already exists: db2ed749d744899cb71ce4429c38557d_PERIZIA_Redatto.pdf
+2024-10-12 21:20:17,526 - __main__ - INFO - File already exists: bda878654774aaa4ef14373a4abbd207_PLANIMETRIE.pdf
+2024-10-12 21:20:17,529 - __main__ - INFO - File already exists: d533ca8447c9b9a745886d8b0c3d33b9_foto.pdf
+2024-10-12 21:20:17,531 - __main__ - INFO - File already exists: b2d91af2bb30eb9c6fc1b0e644bc8000_2 avviso_vendita_ES IMM 287_2023.pdf
+2024-10-12 21:20:17,533 - __main__ - INFO - File already exists: 3e297a92f25a0f6fc5716ce71cfe6caa_ordinanza di vendita.pdf
+2024-10-12 21:20:17,534 - __main__ - INFO - File already exists: cae391a5dc661d31b43c6b3031ebaf61_Rge 398.2021 Avviso di vendita V Esp.pdf
+2024-10-12 21:20:17,536 - __main__ - INFO - File already exists: 355d06b01c94c46a1c0e67df0efae2b3_Perizia Lotto 1_EP.pdf
+2024-10-12 21:20:17,538 - __main__ - INFO - File already exists: 123a3c96fab2656ba4f74b3607be13d5_Avviso di vendita 4 (8).pdf
+2024-10-12 21:20:17,539 - __main__ - INFO - File already exists: 822df7f43c92ab338602548dac29bef8_Avviso di Vendita VI Lotto A-B.pdf
+2024-10-12 21:20:17,541 - __main__ - INFO - File already exists: c792847c47824ba20ccc46065285dac5_Ordinanza di vendita del 17.07.2024.pdf
+2024-10-12 21:20:17,543 - __main__ - INFO - File already exists: b7118385b03189bb2bdab27aaad348aa_Ordinanza di vendita del 27.04.2021.pdf
+2024-10-12 21:20:17,544 - __main__ - INFO - File already exists: e7dcfaa62132a438eb7bb89d293337fe_perizia_versione_privacy.pdf
+2024-10-12 21:20:17,546 - __main__ - INFO - File already exists: 585b09cd009efda41eba8065de944039_Avviso di vendita.pdf
+2024-10-12 21:20:17,549 - __main__ - INFO - File already exists: 92c2f12c570ad885b22c1032be4f4d6d_doc._fotografica_lotto_2.pdf
+2024-10-12 21:20:17,550 - __main__ - INFO - File already exists: 2715574134e286ac426f2fb71efb8b8d_elenco_subalterni_ed_elaborato_planimetrico.pdf
+2024-10-12 21:20:17,553 - __main__ - INFO - File already exists: 37faf00991b7b39548b4c835cd9cb04c_nomina delegato per pubblicità 458-23.pdf
+2024-10-12 21:20:17,555 - __main__ - INFO - File already exists: 7c517c6e60fc93c705b1e102c439a974_RGE 458-2023 - Perizia PER PUBBLICITA'.pdf
+2024-10-12 21:20:17,557 - __main__ - INFO - File already exists: c9ce16cdf70f4d8c981f7172e82bb26b_avviso di vendita telematica  RGE 458-2023 del 16.07.2024.pdf
+2024-10-12 21:20:17,558 - __main__ - INFO - File already exists: b826a21a6ed16d8501df73bc0ad2de8c_ORDINANZA DI VENDITA.pdf
+2024-10-12 21:20:17,560 - __main__ - INFO - File already exists: 6292fc1254ecb37ed6536a8ad4eda890_18-2023 AVVISO DI VENDITA - II ESPERIMENTO.pdf
+2024-10-12 21:20:17,563 - __main__ - INFO - File already exists: 774a5c5f3e9b4d668380a2c51e144a50_Perizia_Privacy_Lotto Unico.pdf
+2024-10-12 21:20:17,564 - __main__ - INFO - File already exists: b63776a22132205a20f7c4051dfc65ca_Fotografie LOTTO UNICO_Redacted.pdf
+2024-10-12 21:20:17,566 - __main__ - INFO - File already exists: f11fce33c70fee61fcfa219604f1fb29_Planimetrie LOTTO UNICO.pdf
+2024-10-12 21:20:17,567 - __main__ - INFO - File already exists: ef2838e62aae364af9713b61b6cf627f_foto.pdf
+2024-10-12 21:20:17,569 - __main__ - INFO - File already exists: cb936f58741cd74d65c43ea9bcbb9a41_1. Avviso di vendita_mer06.11.2024_ore9.pdf
+2024-10-12 21:20:17,571 - __main__ - INFO - File already exists: dda5c0683eda20e888626da8be80a8b6_ordinanza.pdf
+2024-10-12 21:20:17,573 - __main__ - INFO - File already exists: d02f95207ae574e217e4a77dea75cff7_delega.pdf
+2024-10-12 21:20:17,574 - __main__ - INFO - File already exists: e9c5e9090d7d03e2d8880ae5b296d74a_4 avviso di vendita 143-2022.pdf
+2024-10-12 21:20:17,577 - __main__ - INFO - File already exists: fde8beba33a67410d94f27204ff3d2b9_Relazione fotografica epurata (1)_Redacted.pdf
+2024-10-12 21:20:17,579 - __main__ - INFO - File already exists: c9f607bd90e8104e39c64144ae119fe3_E.I. 143-2022 - Copia Epurata ctu.pdf
+2024-10-12 21:20:17,581 - __main__ - INFO - File already exists: f98c5c8be2565d72de2282221c96eb63_ordinanza di vendita.pdf
+2024-10-12 21:20:17,585 - __main__ - INFO - File already exists: 3a661990b8473c8cf75828699ef0a018_Rge 398.2021 Avviso di vendita V Esp.pdf
+2024-10-12 21:20:17,586 - __main__ - INFO - File already exists: 1a02f2e7b881a43010108c3480cb5e99_CTU terreno Lotto 2_EP.pdf
+2024-10-12 21:20:17,588 - __main__ - INFO - File already exists: 32c627f55c60bf2a4a9c3c5e0fdd5d32_Avviso di vendita 4 (8).pdf
+2024-10-12 21:20:17,590 - __main__ - INFO - File already exists: 35265f469fb0dd2c123c8d67138aae25_CTU Privacy_Redatto.pdf
+2024-10-12 21:20:17,592 - __main__ - INFO - File already exists: d3a805dd1aff04923f815abd84f58f0b_Ordinanza di vendita.pdf
+2024-10-12 21:20:17,594 - __main__ - INFO - File already exists: 7d2461505e489a29aa3ef0e315f3e428_Avviso di vendita 268 - 2023 - I - 07.01.2025.pdf
+2024-10-12 21:20:17,595 - __main__ - INFO - File already exists: 99df3f1c916c7571960965392b0aca0a_Foto.pdf
+2024-10-12 21:20:17,597 - __main__ - INFO - File already exists: 5df8b3c423e754e2a54ccaaec4653403_Relazione di stima_PRIVACY Proc. N.209-2021 R.G.E..pdf
+2024-10-12 21:20:17,599 - __main__ - INFO - File already exists: 8fafacbd31e5ce4e6e02eb5d31243b10_delega 209-2021.pdf
+2024-10-12 21:20:17,600 - __main__ - INFO - File already exists: c9adb1545ecc856273dfdd63ac5ddc7c_avviso vendita per il 27.11.2024.pdf
+2024-10-12 21:20:17,601 - __main__ - INFO - File already exists: e84c0d22f577c50d8ce1d21762fd39b0_foto sub. 11.pdf
+2024-10-12 21:20:44,474 - __main__ - INFO - File already exists: a41b7dbc236887bfa5dbdc9b3753ba06_Perizia.pdf
+2024-10-12 21:20:44,476 - __main__ - INFO - File already exists: a050fec57cfc821d05c177ee5dcf7186_Avviso di vendita.pdf
+2024-10-12 21:20:44,477 - __main__ - INFO - File already exists: 731ec833d19c5da77db8fcd0f6eaa11c_Ordinanza vendita.pdf
+2024-10-12 21:20:44,479 - __main__ - INFO - File already exists: aaed91b06080992332224a50322a4f50_AVVISO DI VENDITA 156-2010 (2).pdf
+2024-10-12 21:20:44,480 - __main__ - INFO - File already exists: 3d9097364adea86354b68978dd1e30a2_PERIZIA 156-2010_compressed (1)_Redacted.pdf
+2024-10-12 21:20:44,482 - __main__ - INFO - File already exists: 7877a98d096d26084603ad95a113231e_DELEGA 156-2010.pdf
+2024-10-12 21:20:44,484 - __main__ - INFO - File already exists: c9c1ace24c79cc45a08dae157ae97942_avviso vendita telematica firmato pb.pdf
+2024-10-12 21:20:44,485 - __main__ - INFO - File already exists: e44c1691b5cd0517de1b0a8ea7abac9c_Ordinanza - PVP.pdf
+2024-10-12 21:20:44,487 - __main__ - INFO - File already exists: 0ba46672a21274730f7dd368dbf73837_Perizia - PVP.pdf
+2024-10-12 21:20:44,488 - __main__ - INFO - File already exists: 4576fe45480abdc627f87bda921b3815_Lotto 1 foto + planimetria.pdf
+2024-10-12 21:20:44,490 - __main__ - INFO - File already exists: f993ea537c86b55f29515ffd183d76e5_Ordinanza di delega.pdf
+2024-10-12 21:20:44,492 - __main__ - INFO - File already exists: de9d17d7c6d06c15a7201262259e6326_FALLCO SITO PUBBLICAZIONE - Avviso di vendita.pdf
+2024-10-12 21:20:44,493 - __main__ - INFO - File already exists: e7b71cf8acd10b5e7fcee1be96023db1_Perizia.pdf
+2024-10-12 21:20:44,495 - __main__ - INFO - File already exists: 1d5c3b014c93ed83e499bfe5ebb25dc1_2 avviso - 228.17.pdf
+2024-10-12 21:20:44,496 - __main__ - INFO - File already exists: 0bd97f0f7052a03e2d14827b215c69a9_ordinanza di delega (2).pdf
+2024-10-12 21:20:44,498 - __main__ - INFO - File already exists: 1d203b904bae624af26230bae2130ec6_perizia_privacy.pdf
+2024-10-12 21:20:44,499 - __main__ - INFO - File already exists: eb587f49795cb61def3dabc80ddd100c___Docserver3_Documenti_Aste_Livorno_Ricorso per omologazione piano di ristrutturazione_2024_LI-PU11-1-2024_bck_NOF_NOF-Avviso-LI-PU11-1-2024-DV20241001-59.pdf
+2024-10-12 21:20:44,501 - __main__ - INFO - File already exists: a3c8cceca8713fc7d7676e348697bd59_AVVISO DI VENDITA TELEMATICA SPIL_01-10-24.pdf
+2024-10-12 21:20:44,502 - __main__ - INFO - File already exists: e441f7d1e980bc7973f6fbcbfc854b18_ordinanza di vendita.pdf
+2024-10-12 21:20:44,503 - __main__ - INFO - File already exists: e3d6c23a398d53a5569450ddd2be1edc_Rge 398.2021 Avviso di vendita V Esp.pdf
+2024-10-12 21:20:44,505 - __main__ - INFO - File already exists: ca8b0b704d5a260a33438c337c395c6a_Ordinanza di vendita 21.02.24.pdf
+2024-10-12 21:20:44,507 - __main__ - INFO - File already exists: 1f6473a013664122aec83fdcd0cdfdf8_Avviso di vendita 27.06.24 dep.pdf
+2024-10-12 21:20:44,509 - __main__ - INFO - File already exists: 21c2e4b9dece9b3360ac3a649a5d9c85_Perizia.pdf
+2024-10-12 21:20:44,511 - __main__ - INFO - File already exists: a5244bee191a88fbf8351e91ee761663_Prospetto riepilogativo LOTTO 1.pdf
+2024-10-12 21:20:44,513 - __main__ - INFO - File already exists: 6240858603ac7353f3db79091d16fd8c_Foto LOTTO 1.pdf
+2024-10-12 21:20:44,514 - __main__ - INFO - File already exists: cb02c62f1921c80d8b85a467fd1873a5_EDM LOTTO 1.pdf
+2024-10-12 21:24:05,976 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/2246410/396-2022%20I%20Avviso%20di%20vendita.pdf?versionId=755e2357-b9d7-40e7-b737-4900f60adb0f: Cannot connect to host pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it:443 ssl:default [None]
+2024-10-12 21:24:27,490 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/2051198/Ulg3R_avviso.pdf?versionId=153fd665-b135-495c-8485-986c3ddf9038: Cannot connect to host pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it:443 ssl:default [None]
+2024-10-12 21:25:35,193 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/1821024/Avviso%20di%20vendita%20RG%2081-2020.pdf?versionId=d06781a0-5bb8-47ab-864a-6eea60d75ed0: 
+2024-10-12 21:25:35,194 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/2241879/Ordinanza%20di%20delega.pdf?versionId=360c9071-d1aa-46a9-ad85-f4abd0d98593: 
+2024-10-12 21:25:35,194 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/2241317/3a%20Lotto%207.pdf?versionId=fe561cea-53bb-4999-9a4e-11f90c8513fc: 
+2024-10-12 21:25:35,194 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/4225366/estratto%20avviso%20di%20vendita.pdf?versionId=071a7dc3-c086-4981-809b-0a7ce6e5af51: 
+2024-10-12 21:25:35,194 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/2166862/perizia%20privacy%20199-21%20-%201352-23-%20lotto%207%20%281%29.pdf?versionId=381dd2bb-05b2-42ce-a7e7-7e3446ad1c47: 
+2024-10-12 21:25:37,463 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/4231413/ctu%20integrativa%20oscurata.pdf?versionId=4e13a06b-a13a-44d7-9eaf-484b3b7b7649: 
+2024-10-12 21:25:59,493 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/1748120/Relazione%20CTU_Privacy.pdf?versionId=1fbe0ea0-b75f-489b-af85-aeeac0024bda: 
+2024-10-12 21:26:02,356 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/1967639/avviso%20di%20vendita%20del%2012.07.2023.pdf?versionId=6458503d-0404-4794-96b2-74beb60419bd: 
+2024-10-12 21:26:24,125 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/1821263/II%20Avviso%20di%20Vendita.pdf?versionId=ac090e29-75a7-4a4d-84c5-503bc51a290b: 
+2024-10-12 21:26:26,587 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/2242593/planimetrie.pdf?versionId=b8f4720b-34e3-4815-80a6-b7e0149662ce: 
+2024-10-12 21:26:28,914 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/2058624/Ordinanza.pdf?versionId=990beed7-4639-4115-bca6-e47282b0e081: 
+2024-10-12 21:26:28,914 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/1288302/ORDINANZA%20DI%20VENDITA.pdf?versionId=f7e1e902-9431-41fb-92fa-55b1b966871e: 
+2024-10-12 21:26:51,512 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/1866997/Avviso%20di%20vendita.pdf?versionId=29529ad5-76ef-42f7-b22a-c034724f51e3: Cannot connect to host pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it:443 ssl:default [None]
+2024-10-12 21:27:12,295 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/2244496/30630138s.pdf?versionId=73e7ac6f-4ff3-4e41-ac09-b22cc67040bc: 
+2024-10-12 21:27:16,060 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/1551476/Bando%20vendita%20V.pdf?versionId=13682b08-0451-4b76-ac0e-d06ac6f16563: [Errno 32] Broken pipe
+2024-10-12 21:27:16,061 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/2001425/11771558_perizia.pdf?versionId=b16e6ba6-4d5a-45d6-9045-5cceae1984e9: 
+2024-10-12 21:27:16,066 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/1819219/Avviso%20di%20vendita%20-%20E.I.%20103-2019%20-%20Trib.%20Cassino%20vendita%2024-01-2023.pdf?versionId=4225a457-bb21-4bfb-b92d-5c94f3d1efe0: Cannot connect to host pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it:443 ssl:default [None]
+2024-10-12 21:27:16,066 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/2129533/11862310_immagine_pdf.pdf?versionId=fc3ca7a6-e591-4c9f-ac42-2f116064c4c2: Cannot connect to host pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it:443 ssl:default [None]
+2024-10-12 21:27:16,067 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/2214520/Relazioneperitale%28R.Esn.47_2020%29priv.pdf?versionId=ad5572e0-76e6-450f-b2f0-fab6e0884884: Cannot connect to host pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it:443 ssl:default [None]
+2024-10-12 21:33:36,231 - __main__ - INFO - AsyncFileDownloader session started
+2024-10-12 21:33:36,231 - __main__ - INFO - Starting download of 509402 files
+2024-10-12 21:37:33,161 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/2056512/CDU.pdf?versionId=7fe75f1c-3539-40f7-826a-41361b1ec568: Cannot connect to host pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it:443 ssl:default [None]
+2024-10-12 21:37:59,492 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/1821570/perizia.pdf?versionId=7f406da5-8933-407c-9cfc-e0dc2dbdf08b: Cannot connect to host pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it:443 ssl:default [None]
+2024-10-12 21:38:47,831 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/2181466/Perizia_Privacy.pdf?versionId=7a1371c8-b61e-4d21-aeb9-ebbcb01da9ec: Cannot connect to host pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it:443 ssl:default [None]
+2024-10-12 21:39:11,903 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/1902588/486-2014%20Avviso%20vendita%20telematica%20asincrona%20%20omissis%20asta%20del%2006%20Luglio%202023%20ore%2015.pdf?versionId=f0b5edb8-5e31-428b-aeb4-55d29171965f: 
+2024-10-12 21:39:11,903 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/2254285/ordinanza%20di%20delega%20privacy.pdf?versionId=8d0b9a5b-2fc4-4123-a344-16266dc9af4b: 
+2024-10-12 21:39:11,903 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/2038041/I%20bando%2013.12.2023%20lotti%201%20e%202%20%28box%29.pdf?versionId=765e698b-cf0f-4f39-9440-0faae88d0d22: 
+2024-10-12 21:39:11,903 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/2254029/Autorizzazione%20vendita2023.pdf?versionId=c5d291a9-52f5-43b2-864b-53777cf5e417: 
+2024-10-12 21:39:11,904 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/2084349/Ordinanza%20di%20vendita%2029%2003%202023.pdf?versionId=624d7b7b-80ef-4bcc-be4a-113c0e64a227: 
+2024-10-12 21:39:34,108 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/2145182/Ordinanza%20vendita%20Trib%20AV%20proc.%20275.2011.pdf?versionId=e057aba2-71b4-41d2-aa0a-1e8279775a4a: 
+2024-10-12 21:39:36,073 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/2118509/allegato-11-posto-auto---moto-via-carlo-.pdf?versionId=2c011b46-a622-492d-b508-674e4dd8f531: 
+2024-10-12 21:39:37,126 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/2186081/FOTO%20P19.jpeg?versionId=f119d5db-2a35-4723-8a7f-d3c92522aa74: Cannot connect to host pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it:443 ssl:default [None]
+2024-10-12 21:39:57,535 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/2206932/foto.pdf?versionId=6bf3e71c-1a5c-434e-adb5-f38c9962b1c8: 
+2024-10-12 21:40:00,231 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/2127057/allegato%201-89_compressed_PRIVACY-min.pdf?versionId=c01453c3-4939-4e7c-b02d-9d3e197c4f45: 
+2024-10-12 21:40:01,475 - __main__ - WARNING - Attempt 1 failed for https://pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it/allegati/2030350/delega%20vendita.pdf?versionId=0aee634e-2dd5-4f5b-a980-e1190fb5c5ca: Cannot connect to host pvp-documenti.apps.pvc-os-caas01-rs.polostrategiconazionale.it:443 ssl:default [None]

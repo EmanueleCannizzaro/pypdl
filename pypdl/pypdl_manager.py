@@ -9,7 +9,7 @@ from typing import Callable, Optional, Union
 
 import aiohttp
 
-from .downloader import Multidown, Singledown
+from .downloader2 import Multidown, Singledown
 from .utls import (
     AutoShutdownFuture,
     FileValidator,

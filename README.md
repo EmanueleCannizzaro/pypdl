@@ -1,3 +1,88 @@
+# Async File Downloader
+
+An asynchronous file downloader with advanced features including resume capability, telemetry, and webhook notifications.
+
+## Features
+
+- Asynchronous downloading with concurrency control
+- Resume interrupted downloads
+- Bandwidth throttling
+- OpenTelemetry integration for tracing and metrics
+- Webhook notifications
+- Command-line interface using Typer
+
+## Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/async-file-downloader.git
+   cd async-file-downloader
+   ```
+
+2. Install the package:
+   ```
+   pip install -e .
+   ```
+
+## Usage
+
+### Command Line Interface
+
+After installation, you can use the `async-downloader` command:
+
+```
+async-downloader [OPTIONS] URLS...
+```
+
+Options:
+- `--output`, `-o`: Specify the output folder (default: "downloaded_files")
+
+Example:
+```
+async-downloader https://example.com/file1.pdf https://example.com/file2.jpg -o my_downloads
+```
+
+### As a Python Package
+
+You can also use the AsyncFileDownloader in your Python scripts:
+
+```python
+import asyncio
+from async_file_downloader import AsyncFileDownloader
+
+async def main():
+    urls = [
+        "https://example.com/file1.pdf",
+        "https://example.com/file2.jpg"
+    ]
+    async with AsyncFileDownloader(urls) as downloader:
+        await downloader.download_all()
+
+asyncio.run(main())
+```
+
+## Configuration
+
+You can configure the downloader using environment variables or a `.env` file. Available options:
+
+- `MAX_CONCURRENT`: Maximum number of concurrent downloads
+- `RETRY_ATTEMPTS`: Number of retry attempts for failed downloads
+- `TIMEOUT`: Timeout for each download attempt (in seconds)
+- `CHUNK_SIZE`: Size of chunks for downloading (in bytes)
+- `OTLP_ENDPOINT`: OpenTelemetry endpoint for telemetry
+- `WEBHOOK_URL`: URL for webhook notifications
+- `MAX_BANDWIDTH`: Maximum bandwidth usage (in MB/s, 0 for unlimited)
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License.
+
+
+
 # pypdl
 
 pypdl is a Python library for downloading files from the internet. It provides features such as multi-segmented downloads, retry download in case of failure, option to continue downloading using a different URL if necessary, progress tracking, pause/resume functionality, checksum and many more.
