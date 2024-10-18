@@ -1,16 +1,17 @@
-import asyncio
-import aiohttp
 import aiofiles
-import os
-import logging
-import hashlib
-import time
-from urllib.parse import urlparse, unquote
-from typing import List, Dict, Optional
+# import aiohttp
+from aiohttp import ClientError, ClientResponseError, ClientSession, ClientTimeout, TCPConnector
 from aiolimiter import AsyncLimiter
-from tqdm.asyncio import tqdm
+import asyncio
 from collections import deque
 from opentelemetry.trace.status import Status, StatusCode
+import os
+import hashlib
+import logging
+import time
+from tqdm.asyncio import tqdm
+from typing import  Dict, List,Optional
+from urllib.parse import urlparse, unquote
 
 from pypdl.config import Config
 from pypdl.telemetry import tracer, download_counter, download_size_histogram, download_duration_histogram
@@ -19,9 +20,9 @@ from pypdl.telemetry import tracer, download_counter, download_size_histogram, d
 logger = logging.getLogger(__name__)
 
 class AsyncFileDownloader:
-    def __init__(self, urls: List[str]):
-        self.urls = deque(urls)  # Use deque for efficient popping from both ends
-        self.output_folder = Config.OUTPUT_FOLDER
+    def __init__(self):
+        # self.urls = deque(urls)  # Use deque for efficient popping from both ends
+        # self.output_folder = Config.OUTPUT_FOLDER
         self.max_concurrent = Config.MAX_CONCURRENT
         self.retry_attempts = Config.RETRY_ATTEMPTS
         self.timeout = Config.TIMEOUT
@@ -36,7 +37,7 @@ class AsyncFileDownloader:
         self.progress_bar = None
 
     async def __aenter__(self):
-        self.session = aiohttp.ClientSession(connector=aiohttp.TCPConnector(limit=self.max_concurrent))
+        self.session = ClientSession(connector=TCPConnector(limit=self.max_concurrent))
         self.start_time = time.time()
         logger.info("AsyncFileDownloader session started")
         return self
@@ -73,14 +74,14 @@ class AsyncFileDownloader:
                         if os.path.exists(temp_filepath):
                             headers['Range'] = f'bytes={os.path.getsize(temp_filepath)}-'
                         
-                        async with self.session.get(url, timeout=aiohttp.ClientTimeout(total=self.timeout), headers=headers) as response:
+                        async with self.session.get(url, timeout=ClientTimeout(total=self.timeout), headers=headers) as response:
                             if response.status == 416:  # Range Not Satisfiable, file is complete
                                 os.rename(temp_filepath, filepath)
                                 logger.info(f"File already complete: {filename}")
                                 return {"url": url, "status": "success", "filename": filename, "bytes_downloaded": 0}
                             
                             if response.status not in [200, 206]:
-                                raise aiohttp.ClientResponseError(
+                                raise ClientResponseError(
                                     response.request_info,
                                     response.history,
                                     status=response.status,
@@ -111,7 +112,7 @@ class AsyncFileDownloader:
                     span.set_status(Status(StatusCode.OK))
                     return {"url": url, "status": "success", "filename": filename, "bytes_downloaded": bytes_downloaded}
                 
-                except (aiohttp.ClientError, asyncio.TimeoutError) as e:
+                except (ClientError, asyncio.TimeoutError) as e:
                     logger.warning(f"Attempt {attempt + 1} failed for {url}: {str(e)}")
                     if attempt == self.retry_attempts - 1:
                         logger.error(f"Failed to download {url} after {self.retry_attempts} attempts")
@@ -121,9 +122,9 @@ class AsyncFileDownloader:
                         return {"url": url, "status": "error", "message": str(e)}
                     await asyncio.sleep(2 ** attempt)  # Exponential backoff
 
-    async def producer(self, queue: asyncio.Queue):
-        while self.urls:
-            batch = [self.urls.popleft() for _ in range(min(self.batch_size, len(self.urls)))]
+    async def producer(self, urls: List[str], queue: asyncio.Queue):
+        while urls:
+            batch = [urls.popleft() for _ in range(min(self.batch_size, len(urls)))]
             await queue.put(batch)
         await queue.put(None)  # Signal that all URLs have been processed
 
@@ -139,21 +140,24 @@ class AsyncFileDownloader:
                     self.progress_bar.update(1)
             queue.task_done()
 
-    async def download_all(self) -> List[Dict[str, str]]:
+    async def download_all(self, urls: List[str], output_folder: str) -> List[Dict[str, str]]:
         with tracer.start_as_current_span("download_all"):
-            logger.info(f"Starting download of {len(self.urls)} files")
-            os.makedirs(self.output_folder, exist_ok=True)
+            self.output_folder = output_folder
+            urls = deque(urls)
+            self.number_of_urls : int = len(urls)
+            logger.info(f"Starting download of {self.number_of_urls} files")
+            os.makedirs(output_folder, exist_ok=True)
             
             queue = asyncio.Queue(maxsize=self.max_concurrent)
-            self.progress_bar = tqdm(total=len(self.urls), desc="Downloading", unit="file")
+            self.progress_bar = tqdm(total=self.number_of_urls, desc="Downloading", unit="file")
 
-            producer_task = asyncio.create_task(self.producer(queue))
-            consumers = [asyncio.create_task(self.consumer(queue)) for _ in range(self.max_concurrent)]
+            producer_task = asyncio.create_task(self.producer(urls, queue))
+            consumers = [asyncio.create_task(self.consumer(queue=queue)) for _ in range(self.max_concurrent)]
 
             await asyncio.gather(producer_task, *consumers)
             self.progress_bar.close()
 
-            logger.info(f"Completed download of {len(self.urls)} files")
+            logger.info(f"Completed download of {self.number_of_urls} files")
             return []  # We're not collecting results anymore to save memory
 
     async def send_webhook_notification(self):
@@ -162,12 +166,12 @@ class AsyncFileDownloader:
 
         payload = {
             "message": "Download job completed",
-            "total_files": len(self.urls),
+            "total_files": self.number_of_urls,
             "successful_downloads": self.successful_downloads,
             "failed_downloads": self.failed_downloads
         }
 
-        async with aiohttp.ClientSession() as session:
+        async with ClientSession() as session:
             try:
                 async with session.post(Config.WEBHOOK_URL, json=payload) as response:
                     if response.status != 200:
@@ -181,7 +185,7 @@ class AsyncFileDownloader:
         duration = time.time() - self.start_time
         avg_speed = self.total_bytes_downloaded / duration / 1024 / 1024  # MB/s
         logger.info(f"Download Summary:")
-        logger.info(f"  Total files: {len(self.urls)}")
+        # logger.info(f"  Total files: {self.number_of_urls}")
         logger.info(f"  Successful downloads: {self.successful_downloads}")
         logger.info(f"  Failed downloads: {self.failed_downloads}")
         logger.info(f"  Total bytes downloaded: {self.total_bytes_downloaded:,} bytes")
@@ -202,8 +206,8 @@ async def main():
     urls = df['0'].to_list()[:1350]
     output_folder = "files"
 
-    async with AsyncFileDownloader(urls) as downloader:
-        await downloader.download_all()
+    async with AsyncFileDownloader() as downloader:
+        await downloader.download_all(urls)
     await downloader.send_webhook_notification()
 
 if __name__ == "__main__":
